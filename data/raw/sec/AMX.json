@@ -1,0 +1,23 @@
+{
+  "key": "AMX",
+  "cik": 1129137,
+  "entity": "AMERICA MOVIL SAB DE CV/",
+  "annual": {
+    "form": "20-F",
+    "accn": "0001140361-26-017486",
+    "filed": "2026-04-28",
+    "period": "2025-12-31",
+    "doc": "ef20060642_20f.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm"
+  },
+  "proxy": null,
+  "values": {
+    "revenue": null,
+    "operating_income": null,
+    "d_and_a": null,
+    "cash_taxes_paid": null,
+    "rd": null,
+    "personnel_cost": null,
+    "pretax_income": null
+  }
+}

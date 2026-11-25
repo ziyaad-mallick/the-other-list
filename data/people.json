@@ -1,0 +1,945 @@
+[
+  {
+    "id": "elon-musk",
+    "name": "Elon Musk",
+    "company": "TSLA",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": "One of five people Tesla recognises as co-founders (2009 settlement). Share kept and value held by others are Tesla only; his Forbes net worth also includes private SpaceX/xAI.",
+    "forbes": {
+      "rank": 1,
+      "net_worth_usd": 825279210000,
+      "forbes_source": "Tesla, SpaceX",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/elon-musk/"
+    },
+    "stake_usd": {
+      "value": 268233311170.22626,
+      "src": {
+        "label": "Tesla proxy statement (DEF 14A), filed 2026-10-19",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+        "as_of": "2026-10-19",
+        "quote": "Elon Musk(2) 699,580,882 19.8%"
+      },
+      "shares": {
+        "TSLA": 699580882
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "Includes 286,428,773 restricted shares from the 2018 award; excludes 423,743,904 unvested shares from the 2025 performance award."
+    },
+    "share_kept_pct": 19.823692217544313,
+    "value_held_by_others_usd": 1084861300200.0769,
+    "shares_company_with": [],
+    "value_rank": 7,
+    "forbes_order": 1
+  },
+  {
+    "id": "jeff-bezos",
+    "name": "Jeff Bezos",
+    "company": "AMZN",
+    "role": "founder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 2,
+      "net_worth_usd": 371664029000,
+      "forbes_source": "Amazon",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/jeff-bezos/"
+    },
+    "stake_usd": {
+      "value": 222937574558.98462,
+      "src": {
+        "label": "https://www.sec.gov/Archives/edgar/data/1043298/000101872426000044/0001018724-26-000044-index.htm",
+        "url": "https://www.sec.gov/Archives/edgar/data/1043298/000101872426000044/0001018724-26-000044-index.htm",
+        "as_of": "2026-11-12",
+        "quote": "Form 4 (period 12 Nov 2026): 878,551,932 direct + 5,087,266 indirect"
+      },
+      "shares": {
+        "AMZN": 883639198
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "Latest Form 4; the April 2026 proxy showed 950,434,581 before later sales."
+    },
+    "share_kept_pct": 8.171903225446453,
+    "value_held_by_others_usd": 2505160989613.6836,
+    "shares_company_with": [],
+    "value_rank": 5,
+    "forbes_order": 2
+  },
+  {
+    "id": "larry-page",
+    "name": "Larry Page",
+    "company": "GOOGL",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 3,
+      "net_worth_usd": 231881384000,
+      "forbes_source": "Google",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/larry-page/"
+    },
+    "stake_usd": {
+      "value": 216529711746.01318,
+      "src": {
+        "label": "Alphabet proxy statement (DEF 14A), filed 2026-04-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+        "as_of": "2026-04-24",
+        "quote": "Larry Page — 389,051,160 (Class B); Form 4 of 19 Apr 2022: 19,513,614 Class C x 20 (July 2022 split)",
+        "also": "https://www.sec.gov/Archives/edgar/data/1295231/000120919122025250/0001209191-22-025250-index.htm"
+      },
+      "shares": {
+        "GOOGL": 389051160,
+        "GOOG": 390272280
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "Class C from his last Form 4 (Apr 2022, adjusted for the 20-for-1 split); he has filed none since."
+    },
+    "share_kept_pct": 6.312771732517863,
+    "value_held_by_others_usd": 3213496288253.987,
+    "shares_company_with": [
+      "sergey-brin"
+    ],
+    "value_rank": 4,
+    "forbes_order": 3
+  },
+  {
+    "id": "sergey-brin",
+    "name": "Sergey Brin",
+    "company": "GOOGL",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 4,
+      "net_worth_usd": 213489937000,
+      "forbes_source": "Google",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/sergey-brin/"
+    },
+    "stake_usd": {
+      "value": 199626233367.97852,
+      "src": {
+        "label": "Alphabet proxy statement (DEF 14A), filed 2026-04-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+        "as_of": "2026-08-07",
+        "quote": "Sergey Brin 37,469 (A) 358,939,978 (B); Form 4 7 Aug 2026: 359,159,912 Class C + 2 x 172,700 in trusts",
+        "also": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526345383/0001193125-26-345383-index.htm"
+      },
+      "shares": {
+        "GOOGL": 358977447,
+        "GOOG": 359505312
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": null
+    },
+    "share_kept_pct": 5.819962687395912,
+    "value_held_by_others_usd": 3230399766632.0215,
+    "shares_company_with": [
+      "larry-page"
+    ],
+    "value_rank": 3,
+    "forbes_order": 4
+  },
+  {
+    "id": "mark-zuckerberg",
+    "name": "Mark Zuckerberg",
+    "company": "META",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 5,
+      "net_worth_usd": 203855717000,
+      "forbes_source": "Facebook",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/mark-zuckerberg/"
+    },
+    "stake_usd": {
+      "value": 202798215301.4145,
+      "src": {
+        "label": "Meta proxy statement (DEF 14A), filed 2026-04-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+        "as_of": "2026-04-16",
+        "quote": "Mark Zuckerberg(2) 639,347 (A) 341,823,978 (B)"
+      },
+      "shares": {
+        "META": 342463325
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": null
+    },
+    "share_kept_pct": 13.397144130980818,
+    "value_held_by_others_usd": 1310943917489.7437,
+    "shares_company_with": [],
+    "value_rank": 6,
+    "forbes_order": 5
+  },
+  {
+    "id": "michael-dell",
+    "name": "Michael Dell",
+    "company": "DELL",
+    "role": "founder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 6,
+      "net_worth_usd": 186986695000,
+      "forbes_source": "Dell Technologies",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/michael-dell/"
+    },
+    "stake_usd": {
+      "value": 78979771221.61008,
+      "src": {
+        "label": "Dell Technologies proxy statement (DEF 14A), filed 2026-05-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526226734/d132444ddef14a.htm",
+        "as_of": "2026-05-15",
+        "quote": "Michael S. Dell(2) 246,834,081 (Class A, 89.2%) 18,840,608 (Class C, 5.8%)"
+      },
+      "shares": {
+        "DELL": 265674689
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": null
+    },
+    "share_kept_pct": 41.78505212422997,
+    "value_held_by_others_usd": 110034642322.25131,
+    "shares_company_with": [],
+    "value_rank": 14,
+    "forbes_order": 6
+  },
+  {
+    "id": "warren-buffett",
+    "name": "Warren Buffett",
+    "company": "BRK",
+    "role": "acquirer",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": "Took control of Berkshire Hathaway, a textile maker, in 1965 and built the holding company it is today.",
+    "forbes": {
+      "rank": 7,
+      "net_worth_usd": 158672193000,
+      "forbes_source": "Berkshire Hathaway",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/warren-buffett/"
+    },
+    "stake_usd": {
+      "value": 157816693400.31567,
+      "src": {
+        "label": "https://www.sec.gov/Archives/edgar/data/315090/000119312526465872/0001193125-26-465872-index.htm",
+        "url": "https://www.sec.gov/Archives/edgar/data/315090/000119312526465872/0001193125-26-465872-index.htm",
+        "as_of": "2026-11-16",
+        "quote": "Class A Common Stock ... 182,140 (after converting 6,150); Class B Common Stock ... 1,162"
+      },
+      "shares": {
+        "BRK-A": 182140,
+        "BRK-B": 1162
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "From his Form 4 of 16 Nov 2026, after that month's charitable gifts."
+    },
+    "share_kept_pct": 12.868400405245541,
+    "value_held_by_others_usd": 1068572666818.7283,
+    "shares_company_with": [],
+    "value_rank": 8,
+    "forbes_order": 7
+  },
+  {
+    "id": "steve-ballmer",
+    "name": "Steve Ballmer",
+    "company": "MSFT",
+    "role": "hired",
+    "ranked": false,
+    "featured": false,
+    "badge": null,
+    "note": "Joined Microsoft in 1980 as an early employee and was CEO from 2000 to 2014. Not a founder.",
+    "forbes": {
+      "rank": 8,
+      "net_worth_usd": 155339322000,
+      "forbes_source": "Microsoft",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/steve-ballmer/"
+    },
+    "stake_usd": {
+      "value": 147503532633.7695,
+      "src": {
+        "label": "Forbes profile",
+        "url": "https://www.forbes.com/profile/steve-ballmer/",
+        "as_of": "2026-11-24",
+        "quote": "Ballmer, who owned 4% of Microsoft stock when he retired, has held onto most of his stock"
+      },
+      "shares": null,
+      "pct_basis": 4.0,
+      "estimate": true,
+      "upper_bound": false,
+      "family": false,
+      "note": "Not in any current SEC filing; Forbes's estimate, an upper bound."
+    },
+    "share_kept_pct": 3.9999999999999996,
+    "value_held_by_others_usd": 3540084783210.4683,
+    "shares_company_with": [
+      "bill-gates"
+    ],
+    "forbes_order": 8
+  },
+  {
+    "id": "rob-walton",
+    "name": "Rob Walton & family",
+    "company": "WMT",
+    "role": "heir",
+    "ranked": false,
+    "featured": false,
+    "badge": null,
+    "note": "Son of Walmart founder Sam Walton.",
+    "forbes": {
+      "rank": 9,
+      "net_worth_usd": 153935003000,
+      "forbes_source": "Walmart",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/rob-walton/"
+    },
+    "stake_usd": {
+      "value": 463680993178.6952,
+      "src": {
+        "label": "Walmart proxy statement (DEF 14A), filed 2026-04-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+        "as_of": "2026-04-23",
+        "quote": "Walton Enterprises, LLC 3,002,673,393; Walton Family Holdings Trust 513,524,456"
+      },
+      "shares": {
+        "WMT": 3516197849
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": true,
+      "note": "The Walton family's combined holding (Walton Enterprises + Walton Family Holdings Trust); individual splits are not disclosed."
+    },
+    "share_kept_pct": 44.31951492006385,
+    "value_held_by_others_usd": 582542084882.9795,
+    "shares_company_with": [
+      "jim-walton",
+      "alice-walton"
+    ],
+    "forbes_order": 9
+  },
+  {
+    "id": "jim-walton",
+    "name": "Jim Walton & family",
+    "company": "WMT",
+    "role": "heir",
+    "ranked": false,
+    "featured": false,
+    "badge": null,
+    "note": "Son of Walmart founder Sam Walton.",
+    "forbes": {
+      "rank": 10,
+      "net_worth_usd": 150693914000,
+      "forbes_source": "Walmart",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/jim-walton/"
+    },
+    "stake_usd": {
+      "value": 463680993178.6952,
+      "src": {
+        "label": "Walmart proxy statement (DEF 14A), filed 2026-04-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+        "as_of": "2026-04-23",
+        "quote": "Walton Enterprises, LLC 3,002,673,393; Walton Family Holdings Trust 513,524,456"
+      },
+      "shares": {
+        "WMT": 3516197849
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": true,
+      "note": "The Walton family's combined holding (Walton Enterprises + Walton Family Holdings Trust); individual splits are not disclosed."
+    },
+    "share_kept_pct": 44.31951492006385,
+    "value_held_by_others_usd": 582542084882.9795,
+    "shares_company_with": [
+      "rob-walton",
+      "alice-walton"
+    ],
+    "forbes_order": 10
+  },
+  {
+    "id": "amancio-ortega",
+    "name": "Amancio Ortega",
+    "company": "ITX",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 12,
+      "net_worth_usd": 146539084000,
+      "forbes_source": "Zara",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/amancio-ortega/"
+    },
+    "stake_usd": {
+      "value": 118161839620.64618,
+      "src": {
+        "label": "https://www.inditex.com/itxcomweb/es/en/investors/corporate-governance/shareholder-structure",
+        "url": "https://www.inditex.com/itxcomweb/es/en/investors/corporate-governance/shareholder-structure",
+        "as_of": "2026-01-31",
+        "quote": "Pontegadea Inversiones, S.L. 50.010%; Partler Participaciones S.L.U. 9.284%"
+      },
+      "shares": null,
+      "pct_basis": 59.294,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": null
+    },
+    "share_kept_pct": 59.294000000000004,
+    "value_held_by_others_usd": 81119436091.3081,
+    "shares_company_with": [],
+    "value_rank": 17,
+    "forbes_order": 12
+  },
+  {
+    "id": "larry-ellison",
+    "name": "Larry Ellison",
+    "company": "ORCL",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 11,
+      "net_worth_usd": 148432063000,
+      "forbes_source": "Oracle",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/larry-ellison/"
+    },
+    "stake_usd": {
+      "value": 127554479810.45366,
+      "src": {
+        "label": "Oracle proxy statement (DEF 14A), filed 2026-09-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+        "as_of": "2026-09-25",
+        "quote": "Lawrence J. Ellison (2) 1,158,375,174 38.2%"
+      },
+      "shares": {
+        "ORCL": 1158375174
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": null
+    },
+    "share_kept_pct": 37.15470329193229,
+    "value_held_by_others_usd": 215751935014.69342,
+    "shares_company_with": [],
+    "value_rank": 10,
+    "forbes_order": 11
+  },
+  {
+    "id": "alice-walton",
+    "name": "Alice Walton",
+    "company": "WMT",
+    "role": "heir",
+    "ranked": false,
+    "featured": false,
+    "badge": null,
+    "note": "Daughter of Walmart founder Sam Walton.",
+    "forbes": {
+      "rank": 13,
+      "net_worth_usd": 139993064000,
+      "forbes_source": "Walmart",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/alice-walton/"
+    },
+    "stake_usd": {
+      "value": 463680993178.6952,
+      "src": {
+        "label": "Walmart proxy statement (DEF 14A), filed 2026-04-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+        "as_of": "2026-04-23",
+        "quote": "Walton Enterprises, LLC 3,002,673,393; Walton Family Holdings Trust 513,524,456"
+      },
+      "shares": {
+        "WMT": 3516197849
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": true,
+      "note": "The Walton family's combined holding (Walton Enterprises + Walton Family Holdings Trust); individual splits are not disclosed."
+    },
+    "share_kept_pct": 44.31951492006385,
+    "value_held_by_others_usd": 582542084882.9795,
+    "shares_company_with": [
+      "rob-walton",
+      "jim-walton"
+    ],
+    "forbes_order": 13
+  },
+  {
+    "id": "jensen-huang",
+    "name": "Jensen Huang",
+    "company": "NVDA",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 14,
+      "net_worth_usd": 133797754000,
+      "forbes_source": "Nvidia",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/jensen-huang/"
+    },
+    "stake_usd": {
+      "value": 125006714037.95471,
+      "src": {
+        "label": "https://www.sec.gov/Archives/edgar/data/1197649/000119764926000012/0001197649-26-000012-index.htm",
+        "url": "https://www.sec.gov/Archives/edgar/data/1197649/000119764926000012/0001197649-26-000012-index.htm",
+        "as_of": "2026-09-16",
+        "quote": "Form 4 (period 16 Sep 2026): 70,100,666 direct + trusts and LLCs, 811,521,160 in total"
+      },
+      "shares": {
+        "NVDA": 811521160
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "Latest Form 4; the May 2026 proxy showed 870,604,104 before later sales."
+    },
+    "share_kept_pct": 3.3607535511657765,
+    "value_held_by_others_usd": 3594597003842.2944,
+    "shares_company_with": [],
+    "value_rank": 2,
+    "forbes_order": 14
+  },
+  {
+    "id": "carlos-slim-helu",
+    "name": "Carlos Slim Helú & family",
+    "company": "AMX",
+    "role": "acquirer",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": "Led the group that bought state-owned Telmex in its 1990 privatisation; América Movil was spun off from Telmex in 2000.",
+    "forbes": {
+      "rank": 15,
+      "net_worth_usd": 122970643000,
+      "forbes_source": "Telecom",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/carlos-slim-helu/"
+    },
+    "stake_usd": {
+      "value": 52086263625.0,
+      "src": {
+        "label": "América Movil annual report (20-F), filed 2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-03-31",
+        "quote": "Family Trust 17,743m (29.5%); Slim Family direct 13,790m (22.9%); Control Empresarial de Capitales 10,896m (18.1%)"
+      },
+      "shares": null,
+      "pct_basis": 70.5,
+      "estimate": false,
+      "upper_bound": false,
+      "family": true,
+      "note": "Slim family: family trust, direct holdings and Control Empresarial de Capitales, which the 20-F says may be deemed controlled by the family."
+    },
+    "share_kept_pct": 70.5,
+    "value_held_by_others_usd": 21794961375.0,
+    "shares_company_with": [],
+    "value_rank": 19,
+    "forbes_order": 15
+  },
+  {
+    "id": "bill-gates",
+    "name": "Bill Gates",
+    "company": "MSFT",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 16,
+      "net_worth_usd": 119562263000,
+      "forbes_source": "Microsoft",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/bill-gates/"
+    },
+    "stake_usd": {
+      "value": 36875883158.442375,
+      "src": {
+        "label": "Forbes profile",
+        "url": "https://www.forbes.com/profile/bill-gates/",
+        "as_of": "2026-11-24",
+        "quote": "his Microsoft stake is now less than 1%, Forbes estimates"
+      },
+      "shares": null,
+      "pct_basis": 1.0,
+      "estimate": true,
+      "upper_bound": true,
+      "family": false,
+      "note": "Not in any current SEC filing; Forbes says under 1%, shown as 1% (an upper bound)."
+    },
+    "share_kept_pct": 0.9999999999999999,
+    "value_held_by_others_usd": 3650712432685.7954,
+    "shares_company_with": [
+      "steve-ballmer"
+    ],
+    "value_rank": 1,
+    "forbes_order": 16
+  },
+  {
+    "id": "bernard-arnault",
+    "name": "Bernard Arnault & family",
+    "company": "MC",
+    "role": "acquirer",
+    "ranked": true,
+    "featured": false,
+    "badge": null,
+    "note": "Took control of LVMH, formed by the 1987 merger of Moët Hennessy and Louis Vuitton, in 1989.",
+    "forbes": {
+      "rank": 17,
+      "net_worth_usd": 116579588000,
+      "forbes_source": "LVMH",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/bernard-arnault/"
+    },
+    "stake_usd": {
+      "value": 105761510578.6673,
+      "src": {
+        "label": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2025-12-31",
+        "page": 6,
+        "quote": "Arnault family group 247,694,473 489,899,517 49.77 65.89"
+      },
+      "shares": null,
+      "pct_basis": 49.77,
+      "estimate": false,
+      "upper_bound": false,
+      "family": true,
+      "note": null
+    },
+    "share_kept_pct": 49.77,
+    "value_held_by_others_usd": 106739012987.06967,
+    "shares_company_with": [],
+    "value_rank": 15,
+    "forbes_order": 17
+  },
+  {
+    "id": "francoise-bettencourt-meyers",
+    "name": "Françoise Bettencourt Meyers & family",
+    "company": "OR",
+    "role": "heir",
+    "ranked": false,
+    "featured": false,
+    "badge": null,
+    "note": "Granddaughter of L'Oréal founder Eugène Schueller.",
+    "forbes": {
+      "rank": 19,
+      "net_worth_usd": 101227035000,
+      "forbes_source": "L'Oréal",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/francoise-bettencourt-meyers/"
+    },
+    "stake_usd": {
+      "value": 89767039661.77583,
+      "src": {
+        "label": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2025-12-31",
+        "page": 62,
+        "quote": "Bettencourt Meyers family, holding 34.79%"
+      },
+      "shares": null,
+      "pct_basis": 34.79,
+      "estimate": false,
+      "upper_bound": false,
+      "family": true,
+      "note": null
+    },
+    "share_kept_pct": 34.79,
+    "value_held_by_others_usd": 168258368966.49615,
+    "shares_company_with": [],
+    "forbes_order": 18
+  },
+  {
+    "id": "daniel-ek",
+    "name": "Daniel Ek",
+    "company": "SPOT",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": true,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 222,
+      "net_worth_usd": 13529103000,
+      "forbes_source": "Spotify",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/daniel-ek/"
+    },
+    "stake_usd": {
+      "value": 7198497656.104614,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "quote": "Includes 11,993,298 ordinary shares held by D.G.E. Investments Limited"
+      },
+      "shares": {
+        "SPOT": 11993298
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "His economic stake only. The 20-F row (28,625,267) also counts 16.6m Tencent-held shares he votes by proxy but does not own."
+    },
+    "share_kept_pct": 5.835431946059586,
+    "value_held_by_others_usd": 116159939605.17554,
+    "shares_company_with": [],
+    "value_rank": 13,
+    "forbes_order": 19
+  },
+  {
+    "id": "brian-chesky",
+    "name": "Brian Chesky",
+    "company": "ABNB",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": true,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 251,
+      "net_worth_usd": 12103628000,
+      "forbes_source": "Airbnb",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/brian-chesky/"
+    },
+    "stake_usd": {
+      "value": 11630884258.925049,
+      "src": {
+        "label": "Airbnb proxy statement (DEF 14A), filed 2026-04-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+        "as_of": "2026-04-24",
+        "quote": "Brian Chesky(1) 4,210,326 (Class A) 62,492,000 (Class B)"
+      },
+      "shares": {
+        "ABNB": 66702326
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": null
+    },
+    "share_kept_pct": 11.352771995030002,
+    "value_held_by_others_usd": 90818845763.10657,
+    "shares_company_with": [],
+    "value_rank": 16,
+    "forbes_order": 20
+  },
+  {
+    "id": "tobi-lutke",
+    "name": "Tobi Lütke",
+    "company": "SHOP",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": true,
+    "badge": "Podcast guest",
+    "note": null,
+    "forbes": {
+      "rank": 275,
+      "net_worth_usd": 11623308000,
+      "forbes_source": "E-commerce",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/tobi-lutke/"
+    },
+    "stake_usd": {
+      "value": 10608453138.33014,
+      "src": {
+        "label": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000011/shop-20251231.htm",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000011/shop-20251231.htm",
+        "as_of": "2026-04-21",
+        "quote": "Tobias Lütke(1) 2,334,822 (Class A) 77,750,132 (Class B, 99.59%) 1 Founder Share"
+      },
+      "shares": {
+        "SHOP": 80084954
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "Includes 258,000 Class A shares held by his Thistledown Foundation and ~787k options/RSUs vesting within 60 days."
+    },
+    "share_kept_pct": 6.224919064968163,
+    "value_held_by_others_usd": 159810680469.86554,
+    "shares_company_with": [],
+    "value_rank": 11,
+    "forbes_order": 21
+  },
+  {
+    "id": "marc-benioff",
+    "name": "Marc Benioff",
+    "company": "CRM",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": true,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 461,
+      "net_worth_usd": 8190895000,
+      "forbes_source": "Business software",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/marc-benioff/"
+    },
+    "stake_usd": {
+      "value": 4410798824.939392,
+      "src": {
+        "label": "Salesforce proxy statement (DEF 14A), filed 2026-04-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+        "as_of": "2026-04-16",
+        "quote": "Marc Benioff(4) 22,791,882 2.8%"
+      },
+      "shares": {
+        "CRM": 22791882
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": null
+    },
+    "share_kept_pct": 2.769365978128797,
+    "value_held_by_others_usd": 154860271151.86725,
+    "shares_company_with": [],
+    "value_rank": 12,
+    "forbes_order": 22
+  },
+  {
+    "id": "brian-armstrong",
+    "name": "Brian Armstrong",
+    "company": "COIN",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": true,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 746,
+      "net_worth_usd": 5577025000,
+      "forbes_source": "Cryptocurrency",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/brian-armstrong/"
+    },
+    "stake_usd": {
+      "value": 3515313321.6898346,
+      "src": {
+        "label": "Coinbase proxy statement (DEF 14A), filed 2026-04-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000045/coin-20260424.htm",
+        "as_of": "2026-04-24",
+        "quote": "Brian Armstrong(4) 8,167,972 (Class A, 3.5%) 25,639,618 (Class B, 62.5%)"
+      },
+      "shares": {
+        "COIN": 33807590
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "Excludes 9,865,967 Class B shares in trusts he set up with an independent trustee."
+    },
+    "share_kept_pct": 12.768980796282062,
+    "value_held_by_others_usd": 24014787770.743378,
+    "shares_company_with": [],
+    "value_rank": 18,
+    "forbes_order": 23
+  },
+  {
+    "id": "reed-hastings",
+    "name": "Reed Hastings",
+    "company": "NFLX",
+    "role": "cofounder",
+    "ranked": true,
+    "featured": true,
+    "badge": null,
+    "note": null,
+    "forbes": {
+      "rank": 1048,
+      "net_worth_usd": 3992691000,
+      "forbes_source": "Netflix",
+      "as_of": "2026-11-24",
+      "url": "https://www.forbes.com/profile/reed-hastings/"
+    },
+    "stake_usd": {
+      "value": 2231941922.890457,
+      "src": {
+        "label": "Netflix proxy statement (DEF 14A), filed 2026-04-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+        "as_of": "2026-04-16",
+        "quote": "Reed Hastings(6) 37,759,062"
+      },
+      "shares": {
+        "NFLX": 37759062
+      },
+      "pct_basis": null,
+      "estimate": false,
+      "upper_bound": false,
+      "family": false,
+      "note": "Includes options over 16,595,546 shares, counted at full share value."
+    },
+    "share_kept_pct": 0.9195339798142662,
+    "value_held_by_others_usd": 240493391983.88702,
+    "shares_company_with": [],
+    "value_rank": 9,
+    "forbes_order": 24
+  }
+]

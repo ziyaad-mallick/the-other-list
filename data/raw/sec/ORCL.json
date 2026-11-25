@@ -1,0 +1,60 @@
+{
+  "key": "ORCL",
+  "cik": 1341439,
+  "entity": "ORACLE CORP",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001193125-26-277521",
+    "filed": "2026-06-22",
+    "period": "2026-05-31",
+    "doc": "orcl-20260531.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001193125-26-402816",
+    "filed": "2026-09-25",
+    "period": "2026-11-18",
+    "doc": "orcl-20260925.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 67357000000,
+      "unit": "USD",
+      "concept": "us-gaap:Revenues",
+      "start": "2025-06-01",
+      "end": "2026-05-31"
+    },
+    "operating_income": {
+      "value": 20606000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-06-01",
+      "end": "2026-05-31"
+    },
+    "d_and_a": {
+      "value": 9294000000,
+      "unit": "USD",
+      "concept": "us-gaap:Depreciation + us-gaap:AmortizationOfIntangibleAssets",
+      "start": "2025-06-01",
+      "end": "2026-05-31"
+    },
+    "cash_taxes_paid": {
+      "value": 3704000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-06-01",
+      "end": "2026-05-31"
+    },
+    "rd": {
+      "value": 10272000000,
+      "unit": "USD",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "start": "2025-06-01",
+      "end": "2026-05-31"
+    },
+    "personnel_cost": null,
+    "pretax_income": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "key": "NVDA",
+  "cik": 1045810,
+  "entity": "NVIDIA CORP",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001045810-26-000021",
+    "filed": "2026-02-25",
+    "period": "2026-01-25",
+    "doc": "nvda-20260125.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001045810-26-000036",
+    "filed": "2026-05-12",
+    "period": "2026-06-24",
+    "doc": "nvda-20260512.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 215938000000,
+      "unit": "USD",
+      "concept": "us-gaap:Revenues",
+      "start": "2025-01-27",
+      "end": "2026-01-25"
+    },
+    "operating_income": {
+      "value": 130387000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-01-27",
+      "end": "2026-01-25"
+    },
+    "d_and_a": {
+      "value": 2843000000,
+      "unit": "USD",
+      "concept": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-01-27",
+      "end": "2026-01-25"
+    },
+    "cash_taxes_paid": {
+      "value": 20288000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-01-27",
+      "end": "2026-01-25"
+    },
+    "rd": {
+      "value": 18497000000,
+      "unit": "USD",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "start": "2025-01-27",
+      "end": "2026-01-25"
+    },
+    "personnel_cost": null,
+    "pretax_income": {
+      "value": 141450000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "start": "2025-01-27",
+      "end": "2026-01-25"
+    }
+  }
+}

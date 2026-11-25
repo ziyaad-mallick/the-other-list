@@ -1,0 +1,60 @@
+{
+  "key": "WMT",
+  "cik": 104169,
+  "entity": "Walmart Inc.",
+  "annual": {
+    "form": "10-K",
+    "accn": "0000104169-26-000055",
+    "filed": "2026-03-13",
+    "period": "2026-01-31",
+    "doc": "wmt-20260131.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001193125-26-173673",
+    "filed": "2026-04-23",
+    "period": "2026-06-04",
+    "doc": "wmt-20260423.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 713163000000,
+      "unit": "USD",
+      "concept": "us-gaap:Revenues",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "operating_income": {
+      "value": 29825000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "d_and_a": {
+      "value": 14203000000,
+      "unit": "USD",
+      "concept": "us-gaap:DepreciationAmortizationAndAccretionNet",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "cash_taxes_paid": {
+      "value": 5364000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "rd": null,
+    "personnel_cost": null,
+    "pretax_income": {
+      "value": 29469000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    }
+  }
+}

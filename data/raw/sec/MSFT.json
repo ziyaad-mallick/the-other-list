@@ -1,0 +1,66 @@
+{
+  "key": "MSFT",
+  "cik": 789019,
+  "entity": "MICROSOFT CORP",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001193125-26-323660",
+    "filed": "2026-07-29",
+    "period": "2026-06-30",
+    "doc": "msft-20260630.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001193125-26-427849",
+    "filed": "2026-10-21",
+    "period": "2026-12-08",
+    "doc": "d61756ddef14a.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 331839000000,
+      "unit": "USD",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "operating_income": {
+      "value": 155237000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "d_and_a": {
+      "value": 39000000000,
+      "unit": "USD",
+      "concept": "us-gaap:Depreciation + us-gaap:AmortizationOfIntangibleAssets",
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "cash_taxes_paid": {
+      "value": 21188000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "rd": {
+      "value": 35562000000,
+      "unit": "USD",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "personnel_cost": null,
+    "pretax_income": {
+      "value": 165934000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    }
+  }
+}

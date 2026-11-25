@@ -1,0 +1,234 @@
+{
+  "fetched_at": "2026-11-24T18:39:23+00:00",
+  "fx_to_usd": {
+    "EUR": 1.0973334312438965,
+    "USD": 1.0
+  },
+  "spy_holdings_as_of": "As of 23-Nov-2026",
+  "companies": {
+    "TSLA": {
+      "yahoo": "TSLA",
+      "currency": "USD",
+      "price": 383.4200134277344,
+      "market_cap_local": 1515566504731.9038,
+      "market_cap_usd": 1515566504731.9038,
+      "institutional_pct": 44.779,
+      "sp500_weight_pct": 1.738309,
+      "quote_url": "https://finance.yahoo.com/quote/TSLA/",
+      "holders_url": "https://finance.yahoo.com/quote/TSLA/holders/"
+    },
+    "AMZN": {
+      "yahoo": "AMZN",
+      "currency": "USD",
+      "price": 252.2947998046875,
+      "market_cap_local": 2728098564172.668,
+      "market_cap_usd": 2728098564172.668,
+      "institutional_pct": 69.069,
+      "sp500_weight_pct": 4.011044,
+      "quote_url": "https://finance.yahoo.com/quote/AMZN/",
+      "holders_url": "https://finance.yahoo.com/quote/AMZN/holders/"
+    },
+    "GOOGL": {
+      "yahoo": "GOOGL",
+      "currency": "USD",
+      "price": 279.0,
+      "market_cap_local": 3430026000000.0,
+      "market_cap_usd": 3430026000000.0,
+      "institutional_pct": 80.821997,
+      "sp500_weight_pct": 4.775102,
+      "quote_url": "https://finance.yahoo.com/quote/GOOGL/",
+      "holders_url": "https://finance.yahoo.com/quote/GOOGL/holders/"
+    },
+    "META": {
+      "yahoo": "META",
+      "currency": "USD",
+      "price": 592.1749877929688,
+      "market_cap_local": 1513742132791.1582,
+      "market_cap_usd": 1513742132791.1582,
+      "institutional_pct": 78.692,
+      "sp500_weight_pct": 2.108728,
+      "quote_url": "https://finance.yahoo.com/quote/META/",
+      "holders_url": "https://finance.yahoo.com/quote/META/holders/"
+    },
+    "DELL": {
+      "yahoo": "DELL",
+      "currency": "USD",
+      "price": 297.2799987792969,
+      "market_cap_local": 189014413543.8614,
+      "market_cap_usd": 189014413543.8614,
+      "institutional_pct": 75.57599499999999,
+      "sp500_weight_pct": 0.162071,
+      "quote_url": "https://finance.yahoo.com/quote/DELL/",
+      "holders_url": "https://finance.yahoo.com/quote/DELL/holders/"
+    },
+    "BRK": {
+      "yahoo": "BRK-B",
+      "currency": "USD",
+      "price": 577.2550048828125,
+      "market_cap_local": 1226389360219.044,
+      "market_cap_usd": 1226389360219.044,
+      "institutional_pct": 67.525,
+      "sp500_weight_pct": 1.705723,
+      "quote_url": "https://finance.yahoo.com/quote/BRK-B/",
+      "holders_url": "https://finance.yahoo.com/quote/BRK-B/holders/"
+    },
+    "MSFT": {
+      "yahoo": "MSFT",
+      "currency": "USD",
+      "price": 496.56500244140625,
+      "market_cap_local": 3687588315844.238,
+      "market_cap_usd": 3687588315844.238,
+      "institutional_pct": 76.91799999999999,
+      "sp500_weight_pct": 5.851686,
+      "quote_url": "https://finance.yahoo.com/quote/MSFT/",
+      "holders_url": "https://finance.yahoo.com/quote/MSFT/holders/"
+    },
+    "WMT": {
+      "yahoo": "WMT",
+      "currency": "USD",
+      "price": 131.8699951171875,
+      "market_cap_local": 1046223078061.6747,
+      "market_cap_usd": 1046223078061.6747,
+      "institutional_pct": 37.815,
+      "sp500_weight_pct": 0.923837,
+      "quote_url": "https://finance.yahoo.com/quote/WMT/",
+      "holders_url": "https://finance.yahoo.com/quote/WMT/holders/"
+    },
+    "ITX": {
+      "yahoo": "ITX.MC",
+      "currency": "EUR",
+      "price": 58.29999923706055,
+      "market_cap_local": 181605034566.43658,
+      "market_cap_usd": 199281275711.95428,
+      "institutional_pct": 17.291999999999998,
+      "sp500_weight_pct": null,
+      "quote_url": "https://finance.yahoo.com/quote/ITX.MC/",
+      "holders_url": "https://finance.yahoo.com/quote/ITX.MC/holders/"
+    },
+    "ORCL": {
+      "yahoo": "ORCL",
+      "currency": "USD",
+      "price": 110.11499786376953,
+      "market_cap_local": 343306414825.1471,
+      "market_cap_usd": 343306414825.1471,
+      "institutional_pct": 44.582,
+      "sp500_weight_pct": 0.357095,
+      "quote_url": "https://finance.yahoo.com/quote/ORCL/",
+      "holders_url": "https://finance.yahoo.com/quote/ORCL/holders/"
+    },
+    "NVDA": {
+      "yahoo": "NVDA",
+      "currency": "USD",
+      "price": 154.0399932861328,
+      "market_cap_local": 3719603717880.249,
+      "market_cap_usd": 3719603717880.249,
+      "institutional_pct": 71.59100000000001,
+      "sp500_weight_pct": 6.391143,
+      "quote_url": "https://finance.yahoo.com/quote/NVDA/",
+      "holders_url": "https://finance.yahoo.com/quote/NVDA/holders/"
+    },
+    "AMX": {
+      "yahoo": "AMX",
+      "currency": "USD",
+      "price": 24.75,
+      "market_cap_local": 73881225000.0,
+      "market_cap_usd": 73881225000.0,
+      "institutional_pct": 5.726,
+      "sp500_weight_pct": null,
+      "quote_url": "https://finance.yahoo.com/quote/AMX/",
+      "holders_url": "https://finance.yahoo.com/quote/AMX/holders/"
+    },
+    "MC": {
+      "yahoo": "MC.PA",
+      "currency": "EUR",
+      "price": 394.70001220703125,
+      "market_cap_local": 193651735666.93787,
+      "market_cap_usd": 212500523565.73697,
+      "institutional_pct": 18.159,
+      "sp500_weight_pct": null,
+      "quote_url": "https://finance.yahoo.com/quote/MC.PA/",
+      "holders_url": "https://finance.yahoo.com/quote/MC.PA/holders/"
+    },
+    "OR": {
+      "yahoo": "OR.PA",
+      "currency": "EUR",
+      "price": 440.8999938964844,
+      "market_cap_local": 235138565254.30377,
+      "market_cap_usd": 258025408628.272,
+      "institutional_pct": 16.713,
+      "sp500_weight_pct": null,
+      "quote_url": "https://finance.yahoo.com/quote/OR.PA/",
+      "holders_url": "https://finance.yahoo.com/quote/OR.PA/holders/"
+    },
+    "SPOT": {
+      "yahoo": "SPOT",
+      "currency": "USD",
+      "price": 600.2100219726562,
+      "market_cap_local": 123358437261.28015,
+      "market_cap_usd": 123358437261.28015,
+      "institutional_pct": 70.22,
+      "sp500_weight_pct": null,
+      "quote_url": "https://finance.yahoo.com/quote/SPOT/",
+      "holders_url": "https://finance.yahoo.com/quote/SPOT/holders/"
+    },
+    "ABNB": {
+      "yahoo": "ABNB",
+      "currency": "USD",
+      "price": 174.3699951171875,
+      "market_cap_local": 102449730022.03162,
+      "market_cap_usd": 102449730022.03162,
+      "institutional_pct": 92.300004,
+      "sp500_weight_pct": 0.116707,
+      "quote_url": "https://finance.yahoo.com/quote/ABNB/",
+      "holders_url": "https://finance.yahoo.com/quote/ABNB/holders/"
+    },
+    "SHOP": {
+      "yahoo": "SHOP",
+      "currency": "USD",
+      "price": 132.46499633789062,
+      "market_cap_local": 170419133608.19568,
+      "market_cap_usd": 170419133608.19568,
+      "institutional_pct": 74.383,
+      "sp500_weight_pct": null,
+      "quote_url": "https://finance.yahoo.com/quote/SHOP/",
+      "holders_url": "https://finance.yahoo.com/quote/SHOP/holders/"
+    },
+    "CRM": {
+      "yahoo": "CRM",
+      "currency": "USD",
+      "price": 193.52499389648438,
+      "market_cap_local": 159271069976.80664,
+      "market_cap_usd": 159271069976.80664,
+      "institutional_pct": 83.855003,
+      "sp500_weight_pct": 0.243191,
+      "quote_url": "https://finance.yahoo.com/quote/CRM/",
+      "holders_url": "https://finance.yahoo.com/quote/CRM/holders/"
+    },
+    "COIN": {
+      "yahoo": "COIN",
+      "currency": "USD",
+      "price": 103.9800033569336,
+      "market_cap_local": 27530101092.433212,
+      "market_cap_usd": 27530101092.433212,
+      "institutional_pct": 66.503,
+      "sp500_weight_pct": 0.038841,
+      "quote_url": "https://finance.yahoo.com/quote/COIN/",
+      "holders_url": "https://finance.yahoo.com/quote/COIN/holders/"
+    },
+    "NFLX": {
+      "yahoo": "NFLX",
+      "currency": "USD",
+      "price": 59.11009979248047,
+      "market_cap_local": 242725333906.77747,
+      "market_cap_usd": 242725333906.77747,
+      "institutional_pct": 82.72,
+      "sp500_weight_pct": 0.386977,
+      "quote_url": "https://finance.yahoo.com/quote/NFLX/",
+      "holders_url": "https://finance.yahoo.com/quote/NFLX/holders/"
+    }
+  },
+  "prices": {
+    "GOOG": 276.69000244140625,
+    "BRK-A": 866454.5
+  }
+}

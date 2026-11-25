@@ -1,0 +1,60 @@
+{
+  "key": "AMZN",
+  "cik": 1018724,
+  "entity": "AMAZON.COM, INC.",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001018724-26-000004",
+    "filed": "2026-02-06",
+    "period": "2025-12-31",
+    "doc": "amzn-20251231.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001104659-26-041026",
+    "filed": "2026-04-09",
+    "period": "2026-05-20",
+    "doc": "tm261382-1_def14a.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 716924000000,
+      "unit": "USD",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "operating_income": {
+      "value": 79975000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "d_and_a": {
+      "value": 65756000000,
+      "unit": "USD",
+      "concept": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "cash_taxes_paid": {
+      "value": 8295000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "rd": null,
+    "personnel_cost": null,
+    "pretax_income": {
+      "value": 97311000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    }
+  }
+}

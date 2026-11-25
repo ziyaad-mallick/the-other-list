@@ -1,0 +1,2514 @@
+{
+  "TSLA": {
+    "key": "TSLA",
+    "name": "Tesla",
+    "ticker": "TSLA",
+    "cofounders": [
+      "Martin Eberhard",
+      "Marc Tarpenning",
+      "Elon Musk",
+      "JB Straubel",
+      "Ian Wright"
+    ],
+    "financial_holding": false,
+    "notes": [
+      "Market cap excludes 423,743,904 unvested 2025 performance-award shares, matching the proxy's ownership basis."
+    ],
+    "market_cap_usd": {
+      "value": 1353094611370.3032,
+      "src": {
+        "label": "Yahoo Finance quote, TSLA",
+        "url": "https://finance.yahoo.com/quote/TSLA/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 383.4200134277344,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, TSLA",
+        "url": "https://finance.yahoo.com/quote/TSLA/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 44.779,
+      "src": {
+        "label": "Yahoo Finance holders, TSLA",
+        "url": "https://finance.yahoo.com/quote/TSLA/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 1.738309,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 94827000000.0,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 4355000000.0,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 5030000000.0,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:Depreciation"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 1232000000.0,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 6411000000.0,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 134785,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "quote": "As of December 31, 2025, our employee headcount worldwide was 134,785."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 62786,
+      "src": {
+        "label": "Tesla proxy statement (DEF 14A), filed 2026-10-19",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+        "as_of": "2026-10-19",
+        "quote": "the median 2025 annual total compensation of all other qualifying employees ... was $62,786"
+      }
+    },
+    "payroll_usd": {
+      "value": 8462611010,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+        "as_of": "2026-10-19"
+      }
+    },
+    "ebitda_usd": {
+      "value": 9385000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 17847611010.0,
+      "method": "floor"
+    }
+  },
+  "AMZN": {
+    "key": "AMZN",
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "cofounders": [
+      "Jeff Bezos"
+    ],
+    "financial_holding": false,
+    "notes": [
+      "Amazon reports 'technology and infrastructure' rather than a separate R&D line."
+    ],
+    "market_cap_usd": {
+      "value": 2728098564172.668,
+      "src": {
+        "label": "Yahoo Finance quote, AMZN",
+        "url": "https://finance.yahoo.com/quote/AMZN/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 252.2947998046875,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, AMZN",
+        "url": "https://finance.yahoo.com/quote/AMZN/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 69.069,
+      "src": {
+        "label": "Yahoo Finance holders, AMZN",
+        "url": "https://finance.yahoo.com/quote/AMZN/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 4.011044,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 716924000000.0,
+      "src": {
+        "label": "Amazon annual report (10-K), filed 2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    "operating_income_usd": {
+      "value": 79975000000.0,
+      "src": {
+        "label": "Amazon annual report (10-K), filed 2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 65756000000.0,
+      "src": {
+        "label": "Amazon annual report (10-K), filed 2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 8295000000.0,
+      "src": {
+        "label": "Amazon annual report (10-K), filed 2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": null,
+    "jobs": {
+      "value": 1576000,
+      "src": {
+        "label": "Amazon annual report (10-K), filed 2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06",
+        "quote": "As of December 31, 2025, we employed approximately 1,576,000 full-time and part-time employees."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 40206,
+      "src": {
+        "label": "Amazon proxy statement (DEF 14A), filed 2026-04-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+        "as_of": "2026-04-09",
+        "quote": "The 2025 annual total compensation of our median compensated employee ... was $40,206"
+      }
+    },
+    "payroll_usd": {
+      "value": 63364656000,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+        "as_of": "2026-04-09"
+      }
+    },
+    "ebitda_usd": {
+      "value": 145731000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 209095656000.0,
+      "method": "floor"
+    }
+  },
+  "GOOGL": {
+    "key": "GOOGL",
+    "name": "Alphabet",
+    "ticker": "GOOGL",
+    "cofounders": [
+      "Larry Page",
+      "Sergey Brin"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 3430026000000.0,
+      "src": {
+        "label": "Yahoo Finance quote, GOOGL",
+        "url": "https://finance.yahoo.com/quote/GOOGL/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 279.0,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, GOOGL",
+        "url": "https://finance.yahoo.com/quote/GOOGL/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 80.821997,
+      "src": {
+        "label": "Yahoo Finance holders, GOOGL",
+        "url": "https://finance.yahoo.com/quote/GOOGL/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 4.775102,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 402836000000.0,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 129039000000.0,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 21136000000.0,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "concept": "us-gaap:Depreciation"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 21526000000.0,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 61087000000.0,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 190820,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "quote": "As of December 31, 2025, Alphabet had 190,820 employees."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 310826,
+      "src": {
+        "label": "Alphabet proxy statement (DEF 14A), filed 2026-04-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+        "as_of": "2026-04-24",
+        "quote": "The 2025 annual total compensation of our median compensated employee was $310,826"
+      }
+    },
+    "payroll_usd": {
+      "value": 59311817320,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+        "as_of": "2026-04-24"
+      }
+    },
+    "ebitda_usd": {
+      "value": 150175000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 209486817320.0,
+      "method": "floor"
+    }
+  },
+  "META": {
+    "key": "META",
+    "name": "Meta",
+    "ticker": "META",
+    "cofounders": [
+      "Mark Zuckerberg",
+      "Eduardo Saverin",
+      "Andrew McCollum",
+      "Dustin Moskovitz",
+      "Chris Hughes"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 1513742132791.1582,
+      "src": {
+        "label": "Yahoo Finance quote, META",
+        "url": "https://finance.yahoo.com/quote/META/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 592.1749877929688,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, META",
+        "url": "https://finance.yahoo.com/quote/META/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 78.692,
+      "src": {
+        "label": "Yahoo Finance holders, META",
+        "url": "https://finance.yahoo.com/quote/META/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 2.108728,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 200966000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    "operating_income_usd": {
+      "value": 83276000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 18616000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 7578000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 57372000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "payroll_usd": {
+      "value": 50702000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:LaborAndRelatedExpense",
+        "quote": "Employee compensation (50,702)"
+      },
+      "method": "reported"
+    },
+    "jobs": {
+      "value": 78865,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "quote": "We had a global workforce of 78,865 employees as of December 31, 2025"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 388200,
+      "src": {
+        "label": "Meta proxy statement (DEF 14A), filed 2026-04-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+        "as_of": "2026-04-16",
+        "quote": "the median of the annual total compensation of all employees ... was $388,200"
+      }
+    },
+    "ebitda_usd": {
+      "value": 101892000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 152594000000.0,
+      "method": "reported"
+    }
+  },
+  "DELL": {
+    "key": "DELL",
+    "name": "Dell Technologies",
+    "ticker": "DELL",
+    "cofounders": [
+      "Michael Dell"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 189014413543.8614,
+      "src": {
+        "label": "Yahoo Finance quote, DELL",
+        "url": "https://finance.yahoo.com/quote/DELL/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 297.2799987792969,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, DELL",
+        "url": "https://finance.yahoo.com/quote/DELL/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 75.57599499999999,
+      "src": {
+        "label": "Yahoo Finance holders, DELL",
+        "url": "https://finance.yahoo.com/quote/DELL/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 0.162071,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2026-01-30",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 113538000000.0,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 8149000000.0,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 3029000000.0,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 1261000000.0,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 3142000000.0,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 97000,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "quote": "As of January 30, 2026, we had approximately 97,000 employees."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 78796,
+      "src": {
+        "label": "Dell Technologies proxy statement (DEF 14A), filed 2026-05-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526226734/d132444ddef14a.htm",
+        "as_of": "2026-05-15",
+        "quote": "the annual total compensation for our median employee excluding our CEO was $78,796"
+      }
+    },
+    "payroll_usd": {
+      "value": 7643212000,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526226734/d132444ddef14a.htm",
+        "as_of": "2026-05-15"
+      }
+    },
+    "ebitda_usd": {
+      "value": 11178000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 18821212000.0,
+      "method": "floor"
+    }
+  },
+  "BRK": {
+    "key": "BRK",
+    "name": "Berkshire Hathaway",
+    "ticker": "BRK-B",
+    "cofounders": [],
+    "financial_holding": true,
+    "notes": [
+      "Berkshire's reported income mixes insurance and investment gains with operating results, so EBITDA and GDP contribution are not shown."
+    ],
+    "market_cap_usd": {
+      "value": 1226389360219.044,
+      "src": {
+        "label": "Yahoo Finance quote, BRK-B",
+        "url": "https://finance.yahoo.com/quote/BRK-B/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 577.2550048828125,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, BRK-B",
+        "url": "https://finance.yahoo.com/quote/BRK-B/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 67.525,
+      "src": {
+        "label": "Yahoo Finance holders, BRK-B",
+        "url": "https://finance.yahoo.com/quote/BRK-B/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 1.705723,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 371444000000.0,
+      "src": {
+        "label": "Berkshire Hathaway annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": null,
+    "d_and_a_usd": {
+      "value": 13476000000.0,
+      "src": {
+        "label": "Berkshire Hathaway annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 13978000000.0,
+      "src": {
+        "label": "Berkshire Hathaway annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": null,
+    "jobs": {
+      "value": 387800,
+      "src": {
+        "label": "Berkshire Hathaway annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+        "as_of": "2026-03-02",
+        "quote": "Berkshire and its operating subsidiaries employed approximately 387,800 people worldwide at the end of 2025"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 93709,
+      "src": {
+        "label": "Berkshire Hathaway proxy statement (DEF 14A), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm",
+        "as_of": "2026-03-13",
+        "quote": "the annual total compensation of the median employee in 2025 ($93,709)"
+      }
+    },
+    "payroll_usd": {
+      "value": 36340350200,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm",
+        "as_of": "2026-03-13"
+      }
+    },
+    "ebitda_usd": null,
+    "gdp_contribution_usd": null
+  },
+  "MSFT": {
+    "key": "MSFT",
+    "name": "Microsoft",
+    "ticker": "MSFT",
+    "cofounders": [
+      "Bill Gates",
+      "Paul Allen"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 3687588315844.238,
+      "src": {
+        "label": "Yahoo Finance quote, MSFT",
+        "url": "https://finance.yahoo.com/quote/MSFT/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 496.56500244140625,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, MSFT",
+        "url": "https://finance.yahoo.com/quote/MSFT/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 76.91799999999999,
+      "src": {
+        "label": "Yahoo Finance holders, MSFT",
+        "url": "https://finance.yahoo.com/quote/MSFT/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 5.851686,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2026-06-30",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 331839000000.0,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    "operating_income_usd": {
+      "value": 155237000000.0,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 39000000000.0,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "concept": "us-gaap:Depreciation + us-gaap:AmortizationOfIntangibleAssets"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 21188000000.0,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 35562000000.0,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 223000,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "quote": "As of June 30, 2026, we employed approximately 223,000 people on a full-time basis"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 215057,
+      "src": {
+        "label": "Microsoft proxy statement (DEF 14A), filed 2026-10-21",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+        "as_of": "2026-10-21",
+        "quote": "the annual total compensation for the median employee of the Company (other than our CEO) was $215,057"
+      }
+    },
+    "payroll_usd": {
+      "value": 47957711000,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+        "as_of": "2026-10-21"
+      }
+    },
+    "ebitda_usd": {
+      "value": 194237000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 242194711000.0,
+      "method": "floor"
+    }
+  },
+  "WMT": {
+    "key": "WMT",
+    "name": "Walmart",
+    "ticker": "WMT",
+    "cofounders": [
+      "Sam Walton",
+      "Bud Walton"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 1046223078061.6747,
+      "src": {
+        "label": "Yahoo Finance quote, WMT",
+        "url": "https://finance.yahoo.com/quote/WMT/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 131.8699951171875,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, WMT",
+        "url": "https://finance.yahoo.com/quote/WMT/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 37.815,
+      "src": {
+        "label": "Yahoo Finance holders, WMT",
+        "url": "https://finance.yahoo.com/quote/WMT/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 0.923837,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2026-01-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 713163000000.0,
+      "src": {
+        "label": "Walmart annual report (10-K), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 29825000000.0,
+      "src": {
+        "label": "Walmart annual report (10-K), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 14203000000.0,
+      "src": {
+        "label": "Walmart annual report (10-K), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13",
+        "concept": "us-gaap:DepreciationAmortizationAndAccretionNet"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 5364000000.0,
+      "src": {
+        "label": "Walmart annual report (10-K), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": null,
+    "jobs": {
+      "value": 2100000,
+      "src": {
+        "label": "Walmart annual report (10-K), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13",
+        "quote": "approximately 2.1 million associates as of January 31, 2026"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 30520,
+      "src": {
+        "label": "Walmart proxy statement (DEF 14A), filed 2026-04-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+        "as_of": "2026-04-23",
+        "quote": "the fiscal 2026 annual total compensation of our median associate was $30,520"
+      }
+    },
+    "payroll_usd": {
+      "value": 64092000000,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+        "as_of": "2026-04-23"
+      }
+    },
+    "ebitda_usd": {
+      "value": 44028000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 108120000000.0,
+      "method": "floor"
+    }
+  },
+  "ITX": {
+    "key": "ITX",
+    "name": "Inditex",
+    "ticker": "ITX.MC",
+    "cofounders": [
+      "Amancio Ortega",
+      "Rosalía Mera"
+    ],
+    "financial_holding": false,
+    "notes": [
+      "Converted from EUR at the snapshot rate (1.0973 USD)."
+    ],
+    "market_cap_usd": {
+      "value": 199281275711.95428,
+      "src": {
+        "label": "Yahoo Finance quote, ITX.MC",
+        "url": "https://finance.yahoo.com/quote/ITX.MC/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 58.29999923706055,
+      "currency": "EUR",
+      "src": {
+        "label": "Yahoo Finance quote, ITX.MC",
+        "url": "https://finance.yahoo.com/quote/ITX.MC/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 17.291999999999998,
+      "src": {
+        "label": "Yahoo Finance holders, ITX.MC",
+        "url": "https://finance.yahoo.com/quote/ITX.MC/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": null,
+    "fiscal_year_end": "2026-01-31",
+    "reporting_currency": "EUR",
+    "revenue_usd": {
+      "value": 43744099903.10669,
+      "src": {
+        "label": "Inditex FY2026 report",
+        "url": "https://www.inditex.com/itxcomweb/api/media/1c6d4284-665d-4a4b-bd49-c317cc75d086/Results2025_Annexes.pdf",
+        "as_of": "2026-03-11",
+        "page": 2,
+        "quote": "Net sales 39,864"
+      }
+    },
+    "operating_income_usd": {
+      "value": 8775375449.65744,
+      "src": {
+        "label": "Inditex FY2026 report",
+        "url": "https://www.inditex.com/itxcomweb/api/media/1c6d4284-665d-4a4b-bd49-c317cc75d086/Results2025_Annexes.pdf",
+        "as_of": "2026-03-11",
+        "page": 2,
+        "quote": "NET OPERATING PROFIT (EBIT) 7,997 7,554"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 3588280320.1675415,
+      "src": {
+        "label": "Inditex FY2026 report",
+        "url": "https://www.inditex.com/itxcomweb/api/media/1c6d4284-665d-4a4b-bd49-c317cc75d086/Results2025_Annexes.pdf",
+        "as_of": "2026-03-11",
+        "page": 2,
+        "quote": "Amortisation and depreciation (3,270) (3,174)"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 1739273488.521576,
+      "src": {
+        "label": "Inditex FY2026 report",
+        "url": "https://www.inditex.com/itxcomweb/api/media/1c6d4284-665d-4a4b-bd49-c317cc75d086/Results2025_Annexes.pdf",
+        "as_of": "2026-03-11",
+        "quote": "INCOME TAX PAID (1,585) (1,539)",
+        "page": 4
+      }
+    },
+    "rd_usd": null,
+    "payroll_usd": {
+      "value": 6489629912.376404,
+      "src": {
+        "label": "Inditex FY2026 report",
+        "url": "https://www.inditex.com/itxcomweb/api/media/1da2c9d1-dbca-49fb-9563-982a8a27fae6/INDITEXFullYear2025.pdf",
+        "as_of": "2026-03-11",
+        "page": 4,
+        "quote": "Personnel expenses 5,914 5,643"
+      },
+      "method": "reported"
+    },
+    "jobs": {
+      "value": 163000,
+      "src": {
+        "label": "Inditex annual report",
+        "url": "https://annualreport.inditex.com/anrpxxvui/en/our-drivers",
+        "as_of": "2026-03-11",
+        "quote": "We look after our more than 163,000 employees"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": true
+    },
+    "median_pay_usd": null,
+    "average_pay_usd": {
+      "value": 34840.33644199371,
+      "src": {
+        "label": "Inditex Annual Report 2025, Our drivers",
+        "url": "https://annualreport.inditex.com/anrpxxvui/en/our-drivers",
+        "as_of": "2026-03-11",
+        "quote": "The global average remuneration of our employees is 31,750 euros before tax."
+      }
+    },
+    "ebitda_usd": {
+      "value": 12363655769.824982,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.inditex.com/itxcomweb/api/media/1c6d4284-665d-4a4b-bd49-c317cc75d086/Results2025_Annexes.pdf",
+        "as_of": "2026-03-11"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 18853285682.201385,
+      "method": "reported"
+    }
+  },
+  "ORCL": {
+    "key": "ORCL",
+    "name": "Oracle",
+    "ticker": "ORCL",
+    "cofounders": [
+      "Larry Ellison",
+      "Bob Miner",
+      "Ed Oates"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 343306414825.1471,
+      "src": {
+        "label": "Yahoo Finance quote, ORCL",
+        "url": "https://finance.yahoo.com/quote/ORCL/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 110.11499786376953,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, ORCL",
+        "url": "https://finance.yahoo.com/quote/ORCL/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 44.582,
+      "src": {
+        "label": "Yahoo Finance holders, ORCL",
+        "url": "https://finance.yahoo.com/quote/ORCL/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 0.357095,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2026-05-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 67357000000.0,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 20606000000.0,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 9294000000.0,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "concept": "us-gaap:Depreciation + us-gaap:AmortizationOfIntangibleAssets"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 3704000000.0,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 10272000000.0,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 141000,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "quote": "As of May 31, 2026, we employed approximately 141,000 full-time employees"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 94740,
+      "src": {
+        "label": "Oracle proxy statement (DEF 14A), filed 2026-09-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+        "as_of": "2026-09-25",
+        "quote": "the fiscal 2026 total compensation of our median global employee was $94,740"
+      }
+    },
+    "payroll_usd": {
+      "value": 13358340000,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+        "as_of": "2026-09-25"
+      }
+    },
+    "ebitda_usd": {
+      "value": 29900000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 43258340000.0,
+      "method": "floor"
+    }
+  },
+  "NVDA": {
+    "key": "NVDA",
+    "name": "Nvidia",
+    "ticker": "NVDA",
+    "cofounders": [
+      "Jensen Huang",
+      "Chris Malachowsky",
+      "Curtis Priem"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 3719603717880.249,
+      "src": {
+        "label": "Yahoo Finance quote, NVDA",
+        "url": "https://finance.yahoo.com/quote/NVDA/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 154.0399932861328,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, NVDA",
+        "url": "https://finance.yahoo.com/quote/NVDA/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 71.59100000000001,
+      "src": {
+        "label": "Yahoo Finance holders, NVDA",
+        "url": "https://finance.yahoo.com/quote/NVDA/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 6.391143,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2026-01-25",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 215938000000.0,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 130387000000.0,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 2843000000.0,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 20288000000.0,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 18497000000.0,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 42000,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "quote": "As of the end of fiscal year 2026, we had approximately 42,000 employees in 38 countries"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 282050,
+      "src": {
+        "label": "Nvidia proxy statement (DEF 14A), filed 2026-05-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+        "as_of": "2026-05-12",
+        "quote": "Our median employee's total compensation for Fiscal 2026 was $282,050."
+      }
+    },
+    "payroll_usd": {
+      "value": 11846100000,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+        "as_of": "2026-05-12"
+      }
+    },
+    "ebitda_usd": {
+      "value": 133230000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 145076100000.0,
+      "method": "floor"
+    }
+  },
+  "AMX": {
+    "key": "AMX",
+    "name": "América Movil",
+    "ticker": "AMX",
+    "cofounders": [],
+    "financial_holding": false,
+    "notes": [
+      "US$ convenience translation in the 20-F at Ps.17.9667 per US$ (Banco de México, 31 Dec 2025)"
+    ],
+    "market_cap_usd": {
+      "value": 73881225000.0,
+      "src": {
+        "label": "Yahoo Finance quote, AMX",
+        "url": "https://finance.yahoo.com/quote/AMX/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 24.75,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, AMX",
+        "url": "https://finance.yahoo.com/quote/AMX/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 5.726,
+      "src": {
+        "label": "Yahoo Finance holders, AMX",
+        "url": "https://finance.yahoo.com/quote/AMX/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": null,
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 52521000000.0,
+      "src": {
+        "label": "América Movil annual report (20-F), filed 2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-04-28",
+        "quote": "Ps. 943,638,406 | US$ 52,521 (thousands of pesos; US$ millions)"
+      }
+    },
+    "operating_income_usd": {
+      "value": 10653000000.0,
+      "src": {
+        "label": "América Movil annual report (20-F), filed 2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-04-28",
+        "quote": "Operating income Ps. 191,403,888 US$ 10,653"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 10063000000.0,
+      "src": {
+        "label": "América Movil annual report (20-F), filed 2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-04-28",
+        "quote": "Depreciation and amortization 180,804,783 10,063"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 2961000000.0,
+      "src": {
+        "label": "América Movil annual report (20-F), filed 2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-04-28",
+        "quote": "Income taxes paid (49,466,056) (48,089,000) (53,199,386) (2,961)"
+      }
+    },
+    "rd_usd": null,
+    "jobs": {
+      "value": 177711,
+      "src": {
+        "label": "América Movil annual report (20-F), filed 2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-04-28",
+        "quote": "NUMBER OF EMPLOYEES 179,792 178,468 177,711 (2023, 2024, 2025)"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": null,
+    "payroll_usd": null,
+    "ebitda_usd": {
+      "value": 20716000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-04-28"
+      }
+    },
+    "gdp_contribution_usd": null
+  },
+  "MC": {
+    "key": "MC",
+    "name": "LVMH",
+    "ticker": "MC.PA",
+    "cofounders": [],
+    "financial_holding": false,
+    "notes": [
+      "Converted from EUR at the snapshot rate (1.0973 USD)."
+    ],
+    "market_cap_usd": {
+      "value": 212500523565.73697,
+      "src": {
+        "label": "Yahoo Finance quote, MC.PA",
+        "url": "https://finance.yahoo.com/quote/MC.PA/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 394.70001220703125,
+      "currency": "EUR",
+      "src": {
+        "label": "Yahoo Finance quote, MC.PA",
+        "url": "https://finance.yahoo.com/quote/MC.PA/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 18.159,
+      "src": {
+        "label": "Yahoo Finance holders, MC.PA",
+        "url": "https://finance.yahoo.com/quote/MC.PA/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": null,
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "EUR",
+    "revenue_usd": {
+      "value": 88672222578.52554,
+      "src": {
+        "label": "LVMH FY2025 report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2026-01-27",
+        "page": 9,
+        "quote": "Revenue 80,807 84,683 86,153"
+      }
+    },
+    "operating_income_usd": {
+      "value": 18763304340.839386,
+      "src": {
+        "label": "LVMH FY2025 report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2026-01-27",
+        "page": 11,
+        "quote": "Operating profit 17,099 18,907 22,560"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 8779764783.382416,
+      "src": {
+        "label": "LVMH FY2025 report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2026-01-27",
+        "page": 28,
+        "quote": "Net increase in depreciation, amortization and provisions 4,858; Depreciation of right-of-use assets 3,143"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 5378031146.526337,
+      "src": {
+        "label": "LVMH FY2025 report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2026-01-27",
+        "quote": "TOTAL TAX PAID (4,901) (5,790) (6,106)",
+        "page": 28
+      }
+    },
+    "rd_usd": null,
+    "payroll_usd": {
+      "value": 16699220156.669617,
+      "src": {
+        "label": "LVMH FY2025 report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "as_of": "2026-03-31",
+        "page": 391,
+        "quote": "Personnel costs 15,218 15,361 14,349"
+      },
+      "method": "reported"
+    },
+    "jobs": {
+      "value": 211552,
+      "src": {
+        "label": "LVMH annual report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "as_of": "2026-03-31",
+        "page": 145,
+        "quote": "Total workforce as of December 31: Total 211,552 100% 215,637"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": null,
+    "ebitda_usd": {
+      "value": 27543069124.2218,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2026-01-27"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 44242289280.89142,
+      "method": "reported"
+    }
+  },
+  "OR": {
+    "key": "OR",
+    "name": "L'Oréal",
+    "ticker": "OR.PA",
+    "cofounders": [
+      "Eugène Schueller"
+    ],
+    "financial_holding": false,
+    "notes": [
+      "Converted from EUR at the snapshot rate (1.0973 USD)."
+    ],
+    "market_cap_usd": {
+      "value": 258025408628.272,
+      "src": {
+        "label": "Yahoo Finance quote, OR.PA",
+        "url": "https://finance.yahoo.com/quote/OR.PA/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 440.8999938964844,
+      "currency": "EUR",
+      "src": {
+        "label": "Yahoo Finance quote, OR.PA",
+        "url": "https://finance.yahoo.com/quote/OR.PA/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 16.713,
+      "src": {
+        "label": "Yahoo Finance holders, OR.PA",
+        "url": "https://finance.yahoo.com/quote/OR.PA/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": null,
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "EUR",
+    "revenue_usd": {
+      "value": 48339732313.15613,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 43,
+        "quote": "Sales 41,182.5 ... 43,486.8 ... 44,052.0 (2023, 2024, 2025)"
+      }
+    },
+    "operating_income_usd": {
+      "value": 9757379137.277603,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 43,
+        "quote": "OPERATING PROFIT 8,143.3 ... 8,687.5 ... 8,891.9"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 1994293777.9426575,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 44,
+        "quote": "Depreciation, amortisation and provisions 1,817.4 1,855.3"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 2622626900.6729126,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "quote": "Income tax paid (2,390.0) (2,024.4) (1,995.7)",
+        "page": 294
+      }
+    },
+    "rd_usd": {
+      "value": 1514978535.1753235,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 43,
+        "quote": "R&I expenses (1,288.9) ... (1,354.7) ... (1,380.6)"
+      }
+    },
+    "payroll_usd": {
+      "value": 9370020436.048508,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 308,
+        "quote": "Personnel costs (including welfare contributions)(1) 8,538.9 8,474.3 7,796.0"
+      },
+      "method": "reported"
+    },
+    "jobs": {
+      "value": 97583,
+      "src": {
+        "label": "L'Oréal annual report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 243,
+        "quote": "TOTAL EMPLOYEES 95,023 97,583 (2024, 2025)"
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": null,
+    "ebitda_usd": {
+      "value": 11751672915.22026,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 21121693351.26877,
+      "method": "reported"
+    }
+  },
+  "SPOT": {
+    "key": "SPOT",
+    "name": "Spotify",
+    "ticker": "SPOT",
+    "cofounders": [
+      "Daniel Ek",
+      "Martin Lorentzon"
+    ],
+    "financial_holding": false,
+    "notes": [
+      "Converted from EUR at the snapshot rate (1.0973 USD)."
+    ],
+    "market_cap_usd": {
+      "value": 123358437261.28015,
+      "src": {
+        "label": "Yahoo Finance quote, SPOT",
+        "url": "https://finance.yahoo.com/quote/SPOT/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 600.2100219726562,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, SPOT",
+        "url": "https://finance.yahoo.com/quote/SPOT/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 70.22,
+      "src": {
+        "label": "Yahoo Finance holders, SPOT",
+        "url": "https://finance.yahoo.com/quote/SPOT/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": null,
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "EUR",
+    "revenue_usd": {
+      "value": 18858772349.357605,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "concept": "ifrs-full:Revenue"
+      }
+    },
+    "operating_income_usd": {
+      "value": 2411938881.8740845,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "concept": "ifrs-full:ProfitLossFromOperatingActivities"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 111928009.98687744,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "concept": "ifrs-full:AdjustmentsForDepreciationExpense + ifrs-full:AdjustmentsForAmortisationExpense"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 94370675.0869751,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities"
+      }
+    },
+    "rd_usd": {
+      "value": 1528585469.7227478,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "concept": "ifrs-full:ResearchAndDevelopmentExpense"
+      }
+    },
+    "payroll_usd": {
+      "value": 2111269521.7132568,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "concept": "ifrs-full:EmployeeBenefitsExpense",
+        "quote": "ifrs-full:EmployeeBenefitsExpense 1,924 (EUR million)"
+      },
+      "method": "reported"
+    },
+    "jobs": {
+      "value": 7287,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "quote": "In 2025, 2024, and 2023, we had 7,287, 7,691, and 9,123 full-time employees on average"
+      },
+      "basis": "average full-time employees in 2025",
+      "more_than": false
+    },
+    "median_pay_usd": null,
+    "ebitda_usd": {
+      "value": 2523866891.860962,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 4635136413.574219,
+      "method": "reported"
+    }
+  },
+  "ABNB": {
+    "key": "ABNB",
+    "name": "Airbnb",
+    "ticker": "ABNB",
+    "cofounders": [
+      "Brian Chesky",
+      "Joe Gebbia",
+      "Nathan Blecharczyk"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 102449730022.03162,
+      "src": {
+        "label": "Yahoo Finance quote, ABNB",
+        "url": "https://finance.yahoo.com/quote/ABNB/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 174.3699951171875,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, ABNB",
+        "url": "https://finance.yahoo.com/quote/ABNB/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 92.300004,
+      "src": {
+        "label": "Yahoo Finance holders, ABNB",
+        "url": "https://finance.yahoo.com/quote/ABNB/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 0.116707,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 12241000000.0,
+      "src": {
+        "label": "Airbnb annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    "operating_income_usd": {
+      "value": 2544000000.0,
+      "src": {
+        "label": "Airbnb annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 17000000.0,
+      "src": {
+        "label": "Airbnb annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:Depreciation"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 232000000.0,
+      "src": {
+        "label": "Airbnb annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 2354000000.0,
+      "src": {
+        "label": "Airbnb annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 8200,
+      "src": {
+        "label": "Airbnb annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12",
+        "quote": "As of December 31, 2025, we had approximately 8,200 employees."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 235416,
+      "src": {
+        "label": "Airbnb proxy statement (DEF 14A), filed 2026-04-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+        "as_of": "2026-04-24",
+        "quote": "Median Employee total annual compensation $ 235,416"
+      }
+    },
+    "payroll_usd": {
+      "value": 1930411200,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+        "as_of": "2026-04-24"
+      }
+    },
+    "ebitda_usd": {
+      "value": 2561000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 4491411200.0,
+      "method": "floor"
+    }
+  },
+  "SHOP": {
+    "key": "SHOP",
+    "name": "Shopify",
+    "ticker": "SHOP",
+    "cofounders": [
+      "Tobi Lütke",
+      "Scott Lake",
+      "Daniel Weinand"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 170419133608.19568,
+      "src": {
+        "label": "Yahoo Finance quote, SHOP",
+        "url": "https://finance.yahoo.com/quote/SHOP/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 132.46499633789062,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, SHOP",
+        "url": "https://finance.yahoo.com/quote/SHOP/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 74.383,
+      "src": {
+        "label": "Yahoo Finance holders, SHOP",
+        "url": "https://finance.yahoo.com/quote/SHOP/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": null,
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 11556000000.0,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 1468000000.0,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 31000000.0,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 194000000.0,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 1536000000.0,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 7600,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "quote": "As of December 31, 2025, Shopify had approximately 7,600 employees worldwide."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": null,
+    "payroll_usd": null,
+    "ebitda_usd": {
+      "value": 1499000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11"
+      }
+    },
+    "gdp_contribution_usd": null
+  },
+  "CRM": {
+    "key": "CRM",
+    "name": "Salesforce",
+    "ticker": "CRM",
+    "cofounders": [
+      "Marc Benioff",
+      "Parker Harris",
+      "Dave Moellenhoff",
+      "Frank Dominguez"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 159271069976.80664,
+      "src": {
+        "label": "Yahoo Finance quote, CRM",
+        "url": "https://finance.yahoo.com/quote/CRM/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 193.52499389648438,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, CRM",
+        "url": "https://finance.yahoo.com/quote/CRM/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 83.855003,
+      "src": {
+        "label": "Yahoo Finance holders, CRM",
+        "url": "https://finance.yahoo.com/quote/CRM/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 0.243191,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2026-01-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 41525000000.0,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    },
+    "operating_income_usd": {
+      "value": 8331000000.0,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 1200000000.0,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 1282000000.0,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 5993000000.0,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 83334,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "quote": "As of January 31, 2026, we had 83,334 employees."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 166753,
+      "src": {
+        "label": "Salesforce proxy statement (DEF 14A), filed 2026-04-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+        "as_of": "2026-04-16",
+        "quote": "The fiscal 2026 total compensation of our median employee ... was $166,753."
+      }
+    },
+    "payroll_usd": {
+      "value": 13896194502,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+        "as_of": "2026-04-16"
+      }
+    },
+    "ebitda_usd": {
+      "value": 9531000000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 23427194502.0,
+      "method": "floor"
+    }
+  },
+  "COIN": {
+    "key": "COIN",
+    "name": "Coinbase",
+    "ticker": "COIN",
+    "cofounders": [
+      "Brian Armstrong",
+      "Fred Ehrsam"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 27530101092.433212,
+      "src": {
+        "label": "Yahoo Finance quote, COIN",
+        "url": "https://finance.yahoo.com/quote/COIN/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 103.9800033569336,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, COIN",
+        "url": "https://finance.yahoo.com/quote/COIN/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 66.503,
+      "src": {
+        "label": "Yahoo Finance holders, COIN",
+        "url": "https://finance.yahoo.com/quote/COIN/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 0.038841,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 7181325000.0,
+      "src": {
+        "label": "Coinbase annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 1435441000.0,
+      "src": {
+        "label": "Coinbase annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 188428000.0,
+      "src": {
+        "label": "Coinbase annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 164868000.0,
+      "src": {
+        "label": "Coinbase annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 1670605000.0,
+      "src": {
+        "label": "Coinbase annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 4951,
+      "src": {
+        "label": "Coinbase annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12",
+        "quote": "As of December 31, 2025, we had 4,951 employees."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 217526,
+      "src": {
+        "label": "Coinbase proxy statement (DEF 14A), filed 2026-04-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000045/coin-20260424.htm",
+        "as_of": "2026-04-24",
+        "quote": "the 2025 total compensation for our median employee was $217,526"
+      }
+    },
+    "payroll_usd": {
+      "value": 1076971226,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000045/coin-20260424.htm",
+        "as_of": "2026-04-24"
+      }
+    },
+    "ebitda_usd": {
+      "value": 1623869000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 2700840226.0,
+      "method": "floor"
+    }
+  },
+  "NFLX": {
+    "key": "NFLX",
+    "name": "Netflix",
+    "ticker": "NFLX",
+    "cofounders": [
+      "Reed Hastings",
+      "Marc Randolph"
+    ],
+    "financial_holding": false,
+    "notes": [],
+    "market_cap_usd": {
+      "value": 242725333906.77747,
+      "src": {
+        "label": "Yahoo Finance quote, NFLX",
+        "url": "https://finance.yahoo.com/quote/NFLX/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "price": {
+      "value": 59.11009979248047,
+      "currency": "USD",
+      "src": {
+        "label": "Yahoo Finance quote, NFLX",
+        "url": "https://finance.yahoo.com/quote/NFLX/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "institutional_pct": {
+      "value": 82.72,
+      "src": {
+        "label": "Yahoo Finance holders, NFLX",
+        "url": "https://finance.yahoo.com/quote/NFLX/holders/",
+        "as_of": "2026-11-24"
+      }
+    },
+    "sp500_weight_pct": {
+      "value": 0.386977,
+      "src": {
+        "label": "SPDR S&P 500 ETF (SPY) daily holdings",
+        "as_of": "As of 23-Nov-2026",
+        "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy"
+      }
+    },
+    "fiscal_year_end": "2025-12-31",
+    "reporting_currency": "USD",
+    "revenue_usd": {
+      "value": 45183036000.0,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "concept": "us-gaap:Revenues"
+      }
+    },
+    "operating_income_usd": {
+      "value": 13326603000.0,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "concept": "us-gaap:OperatingIncomeLoss"
+      }
+    },
+    "d_and_a_usd": {
+      "value": 333389000.0,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "concept": "us-gaap:DepreciationDepletionAndAmortization"
+      }
+    },
+    "cash_taxes_paid_usd": {
+      "value": 2220384000.0,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "concept": "us-gaap:IncomeTaxesPaidNet"
+      }
+    },
+    "rd_usd": {
+      "value": 3391390000.0,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "jobs": {
+      "value": 16000,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "quote": "As of December 31, 2025, we had approximately 16,000 full-time employees."
+      },
+      "basis": "employees at fiscal year-end",
+      "more_than": false
+    },
+    "median_pay_usd": {
+      "value": 211201,
+      "src": {
+        "label": "Netflix proxy statement (DEF 14A), filed 2026-04-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+        "as_of": "2026-04-16",
+        "quote": "The 2025 annual total compensation ... for our median employee was $211,201."
+      }
+    },
+    "payroll_usd": {
+      "value": 3379216000,
+      "method": "floor",
+      "src": {
+        "label": "jobs x median pay (both cited above)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+        "as_of": "2026-04-16"
+      }
+    },
+    "ebitda_usd": {
+      "value": 13659992000.0,
+      "src": {
+        "label": "operating income + depreciation & amortisation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23"
+      }
+    },
+    "gdp_contribution_usd": {
+      "value": 17039208000.0,
+      "method": "floor"
+    }
+  }
+}

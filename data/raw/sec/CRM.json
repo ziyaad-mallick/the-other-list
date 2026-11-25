@@ -1,0 +1,66 @@
+{
+  "key": "CRM",
+  "cik": 1108524,
+  "entity": "Salesforce, Inc.",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001108524-26-000060",
+    "filed": "2026-03-02",
+    "period": "2026-01-31",
+    "doc": "crm-20260131.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001108524-26-000085",
+    "filed": "2026-04-16",
+    "period": "2026-05-28",
+    "doc": "crm-20260416.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 41525000000,
+      "unit": "USD",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "operating_income": {
+      "value": 8331000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "d_and_a": {
+      "value": 1200000000,
+      "unit": "USD",
+      "concept": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "cash_taxes_paid": {
+      "value": 1282000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "rd": {
+      "value": 5993000000,
+      "unit": "USD",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    },
+    "personnel_cost": null,
+    "pretax_income": {
+      "value": 9520000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "start": "2025-02-01",
+      "end": "2026-01-31"
+    }
+  }
+}

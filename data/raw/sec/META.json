@@ -1,0 +1,72 @@
+{
+  "key": "META",
+  "cik": 1326801,
+  "entity": "Meta Platforms, Inc.",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001628280-26-003942",
+    "filed": "2026-01-29",
+    "period": "2025-12-31",
+    "doc": "meta-20251231.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001628280-26-025532",
+    "filed": "2026-04-16",
+    "period": "2025-12-31",
+    "doc": "meta-20260416.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 200966000000,
+      "unit": "USD",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "operating_income": {
+      "value": 83276000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "d_and_a": {
+      "value": 18616000000,
+      "unit": "USD",
+      "concept": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "cash_taxes_paid": {
+      "value": 7578000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "rd": {
+      "value": 57372000000,
+      "unit": "USD",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "personnel_cost": {
+      "value": 50702000000,
+      "unit": "USD",
+      "concept": "us-gaap:LaborAndRelatedExpense",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "pretax_income": {
+      "value": 85932000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    }
+  }
+}

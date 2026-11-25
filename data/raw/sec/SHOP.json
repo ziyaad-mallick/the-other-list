@@ -1,0 +1,59 @@
+{
+  "key": "SHOP",
+  "cik": 1594805,
+  "entity": "Shopify Inc.",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001594805-26-000007",
+    "filed": "2026-02-11",
+    "period": "2025-12-31",
+    "doc": "shop-20251231.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm"
+  },
+  "proxy": null,
+  "values": {
+    "revenue": {
+      "value": 11556000000,
+      "unit": "USD",
+      "concept": "us-gaap:Revenues",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "operating_income": {
+      "value": 1468000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "d_and_a": {
+      "value": 31000000,
+      "unit": "USD",
+      "concept": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "cash_taxes_paid": {
+      "value": 194000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "rd": {
+      "value": 1536000000,
+      "unit": "USD",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "personnel_cost": null,
+    "pretax_income": {
+      "value": 1509000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    }
+  }
+}

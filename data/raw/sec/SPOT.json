@@ -1,0 +1,65 @@
+{
+  "key": "SPOT",
+  "cik": 1639920,
+  "entity": "Spotify Technology S.A.",
+  "annual": {
+    "form": "20-F",
+    "accn": "0001628280-26-006874",
+    "filed": "2026-02-10",
+    "period": "2025-12-31",
+    "doc": "ck0001639920-20251231.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm"
+  },
+  "proxy": null,
+  "values": {
+    "revenue": {
+      "value": 17186000000,
+      "unit": "EUR",
+      "concept": "ifrs-full:Revenue",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "operating_income": {
+      "value": 2198000000,
+      "unit": "EUR",
+      "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "d_and_a": {
+      "value": 102000000,
+      "unit": "EUR",
+      "concept": "ifrs-full:AdjustmentsForDepreciationExpense + ifrs-full:AdjustmentsForAmortisationExpense",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "cash_taxes_paid": {
+      "value": 86000000,
+      "unit": "EUR",
+      "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "rd": {
+      "value": 1393000000,
+      "unit": "EUR",
+      "concept": "ifrs-full:ResearchAndDevelopmentExpense",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "personnel_cost": {
+      "value": 1924000000,
+      "unit": "EUR",
+      "concept": "ifrs-full:EmployeeBenefitsExpense",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "pretax_income": {
+      "value": 2224000000,
+      "unit": "EUR",
+      "concept": "ifrs-full:ProfitLossBeforeTax",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    }
+  }
+}

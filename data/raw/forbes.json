@@ -1,0 +1,170 @@
+{
+  "elon-musk": {
+    "rank": 1,
+    "net_worth_usd": 825279210000,
+    "forbes_source": "Tesla, SpaceX",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/elon-musk/"
+  },
+  "jeff-bezos": {
+    "rank": 2,
+    "net_worth_usd": 371664029000,
+    "forbes_source": "Amazon",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/jeff-bezos/"
+  },
+  "larry-page": {
+    "rank": 3,
+    "net_worth_usd": 231881384000,
+    "forbes_source": "Google",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/larry-page/"
+  },
+  "sergey-brin": {
+    "rank": 4,
+    "net_worth_usd": 213489937000,
+    "forbes_source": "Google",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/sergey-brin/"
+  },
+  "mark-zuckerberg": {
+    "rank": 5,
+    "net_worth_usd": 203855717000,
+    "forbes_source": "Facebook",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/mark-zuckerberg/"
+  },
+  "michael-dell": {
+    "rank": 6,
+    "net_worth_usd": 186986695000,
+    "forbes_source": "Dell Technologies",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/michael-dell/"
+  },
+  "warren-buffett": {
+    "rank": 7,
+    "net_worth_usd": 158672193000,
+    "forbes_source": "Berkshire Hathaway",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/warren-buffett/"
+  },
+  "steve-ballmer": {
+    "rank": 8,
+    "net_worth_usd": 155339322000,
+    "forbes_source": "Microsoft",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/steve-ballmer/"
+  },
+  "rob-walton": {
+    "rank": 9,
+    "net_worth_usd": 153935003000,
+    "forbes_source": "Walmart",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/rob-walton/"
+  },
+  "jim-walton": {
+    "rank": 10,
+    "net_worth_usd": 150693914000,
+    "forbes_source": "Walmart",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/jim-walton/"
+  },
+  "amancio-ortega": {
+    "rank": 12,
+    "net_worth_usd": 146539084000,
+    "forbes_source": "Zara",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/amancio-ortega/"
+  },
+  "larry-ellison": {
+    "rank": 11,
+    "net_worth_usd": 148432063000,
+    "forbes_source": "Oracle",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/larry-ellison/"
+  },
+  "alice-walton": {
+    "rank": 13,
+    "net_worth_usd": 139993064000,
+    "forbes_source": "Walmart",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/alice-walton/"
+  },
+  "jensen-huang": {
+    "rank": 14,
+    "net_worth_usd": 133797754000,
+    "forbes_source": "Nvidia",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/jensen-huang/"
+  },
+  "carlos-slim-helu": {
+    "rank": 15,
+    "net_worth_usd": 122970643000,
+    "forbes_source": "Telecom",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/carlos-slim-helu/"
+  },
+  "bill-gates": {
+    "rank": 16,
+    "net_worth_usd": 119562263000,
+    "forbes_source": "Microsoft",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/bill-gates/"
+  },
+  "bernard-arnault": {
+    "rank": 17,
+    "net_worth_usd": 116579588000,
+    "forbes_source": "LVMH",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/bernard-arnault/"
+  },
+  "francoise-bettencourt-meyers": {
+    "rank": 19,
+    "net_worth_usd": 101227035000,
+    "forbes_source": "L'Oréal",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/francoise-bettencourt-meyers/"
+  },
+  "daniel-ek": {
+    "rank": 222,
+    "net_worth_usd": 13529103000,
+    "forbes_source": "Spotify",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/daniel-ek/"
+  },
+  "brian-chesky": {
+    "rank": 251,
+    "net_worth_usd": 12103628000,
+    "forbes_source": "Airbnb",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/brian-chesky/"
+  },
+  "tobi-lutke": {
+    "rank": 275,
+    "net_worth_usd": 11623308000,
+    "forbes_source": "E-commerce",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/tobi-lutke/"
+  },
+  "marc-benioff": {
+    "rank": 461,
+    "net_worth_usd": 8190895000,
+    "forbes_source": "Business software",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/marc-benioff/"
+  },
+  "brian-armstrong": {
+    "rank": 746,
+    "net_worth_usd": 5577025000,
+    "forbes_source": "Cryptocurrency",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/brian-armstrong/"
+  },
+  "reed-hastings": {
+    "rank": 1048,
+    "net_worth_usd": 3992691000,
+    "forbes_source": "Netflix",
+    "as_of": "2026-11-24",
+    "url": "https://www.forbes.com/profile/reed-hastings/"
+  }
+}

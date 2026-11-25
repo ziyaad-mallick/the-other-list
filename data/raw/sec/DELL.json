@@ -1,0 +1,66 @@
+{
+  "key": "DELL",
+  "cik": 1571996,
+  "entity": "Dell Technologies Inc.",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001571996-26-000008",
+    "filed": "2026-03-16",
+    "period": "2026-01-30",
+    "doc": "dell-20260130.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001193125-26-226734",
+    "filed": "2026-05-15",
+    "period": "2026-06-25",
+    "doc": "d132444ddef14a.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526226734/d132444ddef14a.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 113538000000,
+      "unit": "USD",
+      "concept": "us-gaap:Revenues",
+      "start": "2025-02-01",
+      "end": "2026-01-30"
+    },
+    "operating_income": {
+      "value": 8149000000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-02-01",
+      "end": "2026-01-30"
+    },
+    "d_and_a": {
+      "value": 3029000000,
+      "unit": "USD",
+      "concept": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-02-01",
+      "end": "2026-01-30"
+    },
+    "cash_taxes_paid": {
+      "value": 1261000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-02-01",
+      "end": "2026-01-30"
+    },
+    "rd": {
+      "value": 3142000000,
+      "unit": "USD",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "start": "2025-02-01",
+      "end": "2026-01-30"
+    },
+    "personnel_cost": null,
+    "pretax_income": {
+      "value": 7263000000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "start": "2025-02-01",
+      "end": "2026-01-30"
+    }
+  }
+}

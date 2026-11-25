@@ -1,0 +1,44 @@
+{
+  "episode": {
+    "title": "There Is No Such Thing as Founder Succession | Tobi Lütke, Shopify",
+    "date": "2026-11-22",
+    "url": "https://www.youtube.com/watch?v=w0oOxs0WKNk",
+    "page": "https://www.davidsenra.com/episode/tobi-lutke-2",
+    "caption_note": "Quotes checked against YouTube's English caption track (auto-generated) on 2026-11-24. '…' marks cut filler words only.",
+    "quotes": [
+      {"speaker": "David Senra", "t": 1016, "text": "there should be a list of how much wealth the entrepreneur has created… Amazon's worth $2 trillion. I own 200 billion of that 2 trillion, which means I created… or I helped create 1.8 trillion for others.", "context": "recalling Jeff Bezos"},
+      {"speaker": "David Senra", "t": 1037, "text": "we can just put things into existence with AI now. We should just build this together and just have a… list… about the wealth created by other people."},
+      {"speaker": "Tobi Lütke", "t": 1040, "text": "I completely agree… where does the money come from? It seems a question that a lot of people just are not curious about, but it is the most important question"},
+      {"speaker": "Tobi Lütke", "t": 792, "text": "I started Shopify… I'm obviously not responsible for all the value of Shopify. This is a team production… I own very small percentage of the company… like 5, 6%… So like 95% is owned by… the public, by employees, by early people who took bets"},
+      {"speaker": "Tobi Lütke", "t": 1057, "text": "redistribution of… money is also an incredibly important topic, but clearly it's a secondary topic to creating it"}
+    ]
+  },
+  "bezos_dealbook": {
+    "date": "2024-12-04",
+    "quote": "Somebody needs to make a list where they rank people by how much wealth they've created for other people",
+    "figure": "about $2.1 trillion",
+    "src": {"label": "Fortune, 5 Dec 2024", "url": "https://fortune.com/2024/12/05/judge-billionaire-jeff-bezos-by-wealth-amazon-created-investors/", "as_of": "2024-12-05"}
+  },
+  "nvidia": {
+    "memo_date": "2026-11-08", "resigned": "2026-11-12", "reinstated": "2026-11-23", "share_move_pct": 31,
+    "market_value_wording": "nearly $1 trillion",
+    "government": "the board received \"input from senior levels of the United States government\" (Nvidia); Trump told CNBC he \"personally intervened\"",
+    "open": ["board committee investigation", "California Department of Justice probe", "reported SEC inquiry", "House committee interviews from 1 Dec"],
+    "srcs": [
+      {"label": "CNBC, 23 Nov 2026", "url": "https://www.cnbc.com/2026/11/23/jensen-huang-nvidia-ceo-return.html", "as_of": "2026-11-23"},
+      {"label": "CNBC, 24 Nov 2026", "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ceo-return.html", "as_of": "2026-11-24"},
+      {"label": "NBC News", "url": "https://www.nbcnews.com/tech/tech-news/nvidia-reinstates-jensen-huang-rcna610864", "as_of": "2026-11-23"},
+      {"label": "Nvidia press release", "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director", "as_of": "2026-11-23"}
+    ]
+  },
+  "ownership": {
+    "gallup": {"all_adults_pct": 62, "under_50k_pct": 28, "over_100k_pct": 87,
+               "src": {"label": "Gallup, What Percentage of Americans Own Stock? (5 May 2025)", "url": "https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx", "as_of": "2025-05-05"}},
+    "fed_dfa": {"quarter": "2026:Q2", "top_0_1_pct": 25.0, "rest_of_top_1_pct": 25.9, "top_1_pct": 50.9, "next_9_pct": 37.2, "next_40_pct": 11.4, "bottom_50_pct": 0.6, "bottom_90_pct": 12.0,
+                "measure": "share of corporate equities and mutual fund shares held, by wealth percentile",
+                "src": {"label": "Federal Reserve Distributional Financial Accounts (dfa-networth-shares.csv)", "url": "https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/", "as_of": "2026-09-18"}},
+    "scf_2025": {"bottom_half_income_pct": 31, "upper_middle_pct": 77, "top_decile_pct": 97,
+                 "quote": "31 percent of families in the bottom half of the distribution held stock, compared with 77 percent of families in the upper-middle group and 97 percent of families in the top decile.",
+                 "src": {"label": "Federal Reserve, Changes in U.S. Family Finances from 2022 to 2025", "url": "https://www.federalreserve.gov/publications/files/scf26.pdf", "page": 25, "as_of": "2026-10-09"}}
+  }
+}

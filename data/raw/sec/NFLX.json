@@ -1,0 +1,66 @@
+{
+  "key": "NFLX",
+  "cik": 1065280,
+  "entity": "Netflix, Inc.",
+  "annual": {
+    "form": "10-K",
+    "accn": "0001065280-26-000034",
+    "filed": "2026-01-23",
+    "period": "2025-12-31",
+    "doc": "nflx-20251231.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm"
+  },
+  "proxy": {
+    "form": "DEF 14A",
+    "accn": "0001193125-26-159286",
+    "filed": "2026-04-16",
+    "period": "2026-06-04",
+    "doc": "d20613ddef14a.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm"
+  },
+  "values": {
+    "revenue": {
+      "value": 45183036000,
+      "unit": "USD",
+      "concept": "us-gaap:Revenues",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "operating_income": {
+      "value": 13326603000,
+      "unit": "USD",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "d_and_a": {
+      "value": 333389000,
+      "unit": "USD",
+      "concept": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "cash_taxes_paid": {
+      "value": 2220384000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeTaxesPaidNet",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "rd": {
+      "value": 3391390000,
+      "unit": "USD",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "personnel_cost": null,
+    "pretax_income": {
+      "value": 12722552000,
+      "unit": "USD",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    }
+  }
+}
