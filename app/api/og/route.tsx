@@ -22,15 +22,15 @@ export async function GET(req: Request) {
     </div>
   ) : (
     <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
-      <div style={{ fontSize: 80, fontWeight: 700 }}>The Other List</div>
-      <div style={{ fontSize: 36, color: muted }}>What the richest founders created for everyone else.</div>
+      <div style={{ fontSize: 80, fontWeight: 700 }}>Forbes, Flipped</div>
+      <div style={{ fontSize: 36, color: muted }}>Ranking billionaires by what they created, not what they kept.</div>
     </div>
   );
   return new ImageResponse(
     (
       <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", padding: 72, background: paper, color: ink }}>
         {body}
-        <div style={{ fontSize: 24, color: muted, display: "flex" }}>{`${p ? "The Other List · " : ""}every number sourced`}</div>
+        <div style={{ fontSize: 24, color: muted, display: "flex" }}>{`${p ? "Forbes, Flipped · " : ""}every number sourced`}</div>
       </div>
     ),
     { width: 1200, height: 630 },

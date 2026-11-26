@@ -22,12 +22,12 @@ export default function Page() {
   return (
     <main>
       <header className="hero">
-        <h1>The Other List</h1>
-        <p className="subtitle">What the richest founders created for everyone else.</p>
+        <h1>Forbes, Flipped</h1>
+        <p className="subtitle">Ranking billionaires by what they created, not what they kept.</p>
         <div className="thesis" aria-label="The headline">
           <div className="stat big-stat">
             <b>{money(t.others)}</b>
-            <span>held by everyone else: pension and index funds, employees, savers</span>
+            <span>held by other shareholders, though half of US stock belongs to the top 1%</span>
           </div>
           <div className="stat">
             <b>{Math.round(t.keptPct)}%</b>
@@ -39,8 +39,7 @@ export default function Page() {
           </div>
         </div>
         <p className="lede">
-          Forbes ranks people by what they kept. Jeff Bezos asked for a list of what they built for everyone else. On 22 Nov,
-          David Senra and Tobi Lütke said someone should build it. Here it is, with the case against it.
+          Personal fortune is only a fraction of the story. Flip the list to see the equity held by non-founders, the workers employed, and the economic output underneath. Every number links to its filing, and the case against counting this way is on the same page.
         </p>
         <p className="byline">
           By <A href="https://github.com/ziyaad-mallick">Ziyaad Mallick</A> · Snapshot {meta.snapshot_date} · <A href={REPO}>Data and code</A>

@@ -5,8 +5,8 @@ import "./globals.css";
 const sans = Inter({ variable: "--font-sans", subsets: ["latin"] });
 const serif = Newsreader({ variable: "--font-serif", subsets: ["latin"], style: ["normal", "italic"] });
 
-const title = "The Other List";
-const description = "What the richest founders created for everyone else: the Forbes list, flipped to the value held by others. Every number sourced.";
+const title = "Forbes, Flipped";
+const description = "Ranking billionaires by what they created, not what they kept. The Forbes list, flipped to the value held by others. Every number sourced.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000"),

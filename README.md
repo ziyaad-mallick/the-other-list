@@ -1,6 +1,6 @@
-# The Other List
+# Forbes, Flipped
 
-What the richest founders created for everyone else.
+Ranking billionaires by what they created, not what they kept.
 
 Forbes ranks people by what they kept. In 2024 Jeff Bezos asked for a list ranking people by the wealth they created for others. On 22 Nov 2026, David Senra and Tobi Lütke said someone should build it. This is that list: the Forbes top names (plus six founders picked for contrast), flipped to **value held by others = market cap − the person's stake**, with the case against counting this way on the same page.
 
