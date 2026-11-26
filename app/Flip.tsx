@@ -44,7 +44,7 @@ function Stake({ p }: { p: Person }) {
 }
 
 export default function Flip() {
-  const [mode, setMode] = useState<Mode>({ view: "forbes" });
+  const [mode, setMode] = useState<Mode>({ view: "value" });
   const [open, setOpen] = useState<string | null>(null);
   const [balance, setBalance] = useState(50000);
 
@@ -66,18 +66,33 @@ export default function Flip() {
 
   const sortBy = (key: SortKey) =>
     setMode((m) => ({ view: m.view, sort: m.sort?.key === key ? (m.sort.dir === 1 ? { key, dir: -1 } : undefined) : { key, dir: 1 } }));
-  const arrow = (k: SortKey) => (mode.sort?.key === k ? (mode.sort.dir === 1 ? " ▼" : " ▲") : "");
+  const arrow = (k: SortKey) => (
+    <span className={`sort ${mode.sort?.key === k ? "on" : ""}`} aria-hidden>
+      {mode.sort?.key === k ? (mode.sort.dir === 1 ? "↓" : "↑") : "↕"}
+    </span>
+  );
 
   return (
     <section aria-label="The list" className="flip">
-      <div className="toggle" role="tablist">
-        <button role="tab" aria-selected={mode.view === "forbes" && !mode.sort} onClick={() => setMode({ view: "forbes" })}>
-          What they kept <span className="sub">Forbes order</span>
-        </button>
-        <button role="tab" aria-selected={isValue} onClick={() => setMode({ view: "value" })}>
-          What others hold <span className="sub">value held by others</span>
-        </button>
+      <div className="toolbar">
+        <div className="toggle" role="tablist">
+          <button role="tab" aria-selected={isValue} onClick={() => setMode({ view: "value" })}>
+            Ranked by value for others
+          </button>
+          <button role="tab" aria-selected={mode.view === "forbes" && !mode.sort} onClick={() => setMode({ view: "forbes" })}>
+            Forbes net worth order
+          </button>
+        </div>
+        <div className="hints">
+          <span>Click any row for 401(k) stake, taxes &amp; sources</span>
+          <nav>
+            <a href="#others">Who are &ldquo;the others&rdquo;?</a> · <a href="#against">Case against</a> · <a href="#method">Method</a>
+          </nav>
+        </div>
       </div>
+      <p className="footnote">
+        <sup className="mark">*</sup>Forbes net worth includes major holdings outside this company; share kept and held by others cover the listed company only.
+      </p>
       {mode.sort?.key === "gdp" && (
         <p className="floor-note">Floor rows (US companies that don&apos;t report payroll) are understated: payroll is counted as jobs × median pay.</p>
       )}
@@ -91,6 +106,7 @@ export default function Flip() {
         <button className="num hide-sm" onClick={() => sortBy("jobs")}>Jobs{arrow("jobs")}</button>
         <button className="num hide-md" onClick={() => sortBy("median")}>Median pay{arrow("median")}</button>
         <button className="num hide-md" onClick={() => sortBy("gdp")}>GDP contrib.{arrow("gdp")}</button>
+        <span aria-hidden />
       </div>
 
       <LayoutGroup>
@@ -109,7 +125,7 @@ export default function Flip() {
               <motion.div
                 layout="position"
                 transition={{ type: "spring", stiffness: 380, damping: 38 }}
-                className={`grid row ${open === r.id ? "is-open" : ""} ${r.ranked ? "" : "unranked"}`}
+                className={`grid row ${open === r.id ? "is-open" : ""} ${!r.ranked && isValue ? "unranked" : ""}`}
                 role="row"
                 tabIndex={0}
                 aria-expanded={open === r.id}
@@ -134,13 +150,15 @@ export default function Flip() {
                 <span className="num">
                   {money(nw)}
                   {(r.id === "elon-musk" || minority) && (
-                    <sup className="mark" title={`The listed ${c.name} stake is under half of this net worth; share kept and held by others describe ${c.name} only.`}>
+                    <sup className="mark" title={`Forbes net worth includes major holdings outside ${c.name}; the other columns cover ${c.name} only.`}>
                       *
                     </sup>
                   )}
-                  {r.id === "elon-musk" && <span className="subtext">incl. private SpaceX/xAI; other columns are Tesla only</span>}
                 </span>
-                <span className="num"><Stake p={r} /></span>
+                <span className="num">
+                  <Stake p={r} />
+                  <span className="split" aria-hidden><i style={{ width: `${Math.max(r.share_kept_pct, 1.5)}%` }} /></span>
+                </span>
                 <span className="num strong">{money(r.value_held_by_others_usd)}</span>
                 <span className="num hide-sm">{c.jobs.more_than ? ">" : ""}{c.jobs.value.toLocaleString("en-US")}</span>
                 <span className="num hide-md">{c.median_pay_usd ? money(c.median_pay_usd.value) : <span className="na">not disclosed</span>}</span>
@@ -154,6 +172,7 @@ export default function Flip() {
                     <span className="na">n/a</span>
                   )}
                 </span>
+                <span className="chev" aria-hidden>›</span>
               </motion.div>
               {open === r.id && <Detail p={r} balance={balance} setBalance={setBalance} />}
             </Fragment>

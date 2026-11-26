@@ -1,11 +1,16 @@
 import Flip from "./Flip";
-import { companies, context, meta } from "@/lib/data";
+import { companies, context, meta, money, people } from "@/lib/data";
+import { builtTotals } from "@/lib/metrics";
 
 const REPO = "https://github.com/ziyaad-mallick/the-other-list";
 const YT = (t: number) => `${context.episode.url}&t=${t}s`;
 const q = Object.fromEntries(context.episode.quotes.map((x) => [x.t, x]));
 const o = context.ownership;
 const nv = context.nvidia;
+const t = builtTotals(
+  people.map((p) => ({ ranked: p.ranked, company: p.company, stake: p.stake_usd.value })),
+  (k) => ({ cap: companies[k].market_cap_usd.value, jobs: companies[k].jobs.value }),
+);
 const meta_ = companies.META;
 const metaFloor = meta_.jobs.value * (meta_.median_pay_usd?.value ?? 0);
 
@@ -19,6 +24,20 @@ export default function Page() {
       <header className="hero">
         <h1>The Other List</h1>
         <p className="subtitle">What the richest founders created for everyone else.</p>
+        <div className="thesis" aria-label="The headline">
+          <div className="stat big-stat">
+            <b>{money(t.others)}</b>
+            <span>held by everyone else: pension and index funds, employees, savers</span>
+          </div>
+          <div className="stat">
+            <b>{Math.round(t.keptPct)}%</b>
+            <span>kept by the {t.people} founders ranked here ({money(t.kept)})</span>
+          </div>
+          <div className="stat">
+            <b>{(Math.floor(t.jobs / 1e5) / 10).toFixed(1)}M+</b>
+            <span>jobs at the {t.companies} companies they built or grew</span>
+          </div>
+        </div>
         <p className="lede">
           Forbes ranks people by what they kept. Jeff Bezos asked for a list of what they built for everyone else. On 22 Nov,
           David Senra and Tobi Lütke said someone should build it. Here it is, with the case against it.
@@ -30,7 +49,7 @@ export default function Page() {
 
       <Flip />
 
-      <section className="prose">
+      <section className="prose" id="others">
         <h2>Who are &ldquo;the others&rdquo;?</h2>
         <p>
           Most American adults own some stock: <A href={o.gallup.src.url}>62% in Gallup&apos;s 2025 poll</A>, falling to 28% in
@@ -64,7 +83,7 @@ export default function Page() {
           </p>
         </section>
 
-        <section className="prose case">
+        <section className="prose case" id="against">
           <h2>The case against</h2>
           <ul>
             <li>
@@ -96,7 +115,7 @@ export default function Page() {
         </section>
       </div>
 
-      <section className="prose method">
+      <section className="prose method" id="method">
         <h2>Method</h2>
         <ul>
           <li><b>Value held by others</b> = market cap − the person&apos;s stake. Bezos&apos;s own arithmetic. Share kept = stake ÷ market cap.</li>

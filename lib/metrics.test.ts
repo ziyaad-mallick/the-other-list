@@ -49,3 +49,19 @@ describe("edge cases", () => {
     expect(m.indexExposure(50000, 4)).toBe(2000);
   });
 });
+
+describe("headline totals", () => {
+  const t = m.builtTotals(
+    people.map((p) => ({ ranked: p.ranked, company: p.company, stake: p.stake_usd.value })),
+    (k) => ({ cap: co(k).market_cap_usd.value, jobs: co(k).jobs.value }),
+  );
+  it("counts each company once (Alphabet has two founders)", () => {
+    expect(t.people).toBe(19);
+    expect(t.companies).toBe(18);
+  });
+  it("others + kept = total", () => {
+    expect(t.others + t.kept).toBeCloseTo(t.cap, -3);
+    expect(t.keptPct).toBeGreaterThan(0);
+    expect(t.keptPct).toBeLessThan(100);
+  });
+});

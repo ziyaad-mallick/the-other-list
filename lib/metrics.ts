@@ -38,3 +38,15 @@ export const rankDeltas = <T extends Ranked>(people: T[]) => {
 
 /** The listed stake is under half the person's net worth: share kept describes only the listed company. */
 export const minorityOfNetWorth = (stake: number, netWorth: number) => stake < netWorth / 2;
+
+/** Headline totals over the ranked people: each company counted once, stakes summed across its ranked founders. */
+export const builtTotals = (
+  people: { ranked: boolean; company: string; stake: number }[],
+  company: (k: string) => { cap: number; jobs: number },
+) => {
+  const ranked = people.filter((p) => p.ranked);
+  const keys = [...new Set(ranked.map((p) => p.company))];
+  const cap = keys.reduce((s, k) => s + company(k).cap, 0);
+  const kept = ranked.reduce((s, p) => s + p.stake, 0);
+  return { people: ranked.length, companies: keys.length, cap, kept, others: cap - kept, keptPct: (kept / cap) * 100, jobs: keys.reduce((s, k) => s + company(k).jobs, 0) };
+};
