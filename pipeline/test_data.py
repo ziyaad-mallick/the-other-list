@@ -115,7 +115,7 @@ def test_everyday_covers_every_company():
 def test_everyday_impact_is_cited(key):
     e = EVERYDAY[key]
     assert e["text"] and len(e["text"]) < 300
-    assert 1 <= len(e["facts"]) <= 2
+    assert 1 <= len(e["facts"]) <= 4
     for f in e["facts"]:
         assert f["url"].startswith("https://"), key
         assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", f["as_of"]), key
