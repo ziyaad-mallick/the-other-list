@@ -13,6 +13,7 @@ export type Company = {
   revenue_usd: Num; operating_income_usd: Num; d_and_a_usd: Num; cash_taxes_paid_usd: Num; rd_usd: Num;
   jobs: { value: number; src: Src; basis: string; more_than: boolean };
   median_pay_usd: Num; payroll_usd: { value: number; src: Src; method: string } | null;
+  stock_based_comp_usd: Num; capex_usd: Num; dividends_paid_usd: Num;
   ebitda_usd: Num; gdp_contribution_usd: { value: number; method: string } | null;
 };
 

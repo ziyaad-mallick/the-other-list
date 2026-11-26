@@ -67,6 +67,27 @@
       "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
       "start": "2025-01-01",
       "end": "2025-12-31"
+    },
+    "stock_based_comp": {
+      "value": 20427000000,
+      "unit": "USD",
+      "concept": "us-gaap:ShareBasedCompensation",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "capex": {
+      "value": 69691000000,
+      "unit": "USD",
+      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "dividends_paid": {
+      "value": 5324000000,
+      "unit": "USD",
+      "concept": "us-gaap:PaymentsOfDividends",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
     }
   }
 }

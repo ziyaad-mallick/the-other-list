@@ -9,6 +9,7 @@ from curated import COMPANY, STAKES
 from universe import COMPANIES, PEOPLE
 
 RANKED_ROLES = {"founder", "cofounder", "acquirer"}
+CASH_FLOW = ("stock_based_comp", "capex", "dividends_paid")  # stored as positive magnitudes
 FILER_LABEL = {"10-K": "annual report (10-K)", "20-F": "annual report (20-F)", "DEF 14A": "proxy statement (DEF 14A)"}
 
 
@@ -74,6 +75,9 @@ def build_companies(sec, market):
 
             rec["revenue_usd"], rec["operating_income_usd"] = x("revenue"), x("operating_income")
             rec["d_and_a_usd"], rec["cash_taxes_paid_usd"], rec["rd_usd"] = x("d_and_a"), x("cash_taxes_paid"), x("rd")
+            for f in CASH_FLOW:
+                d = x(f)
+                rec[f"{f}_usd"] = {**d, "value": abs(d["value"])} if d else None
             if cur.get("payroll_from_xbrl"):
                 p = x(cur["payroll_from_xbrl"])
                 rec["payroll_usd"] = {**p, "method": "reported", "src": {**p["src"], "quote": cur["payroll_quote"]}}
@@ -87,7 +91,7 @@ def build_companies(sec, market):
                 if field not in cur:
                     return None
                 qk = quote_key or f"{field}_quote"
-                s = resolve(src_url, key, sec, as_of=cur.get("doc_date"), page=cur.get(f"{field}_page") or cur.get(f"{field.split('_')[0]}_page"), quote=cur.get(qk),
+                s = resolve(cur.get(f"{field}_src", src_url), key, sec, as_of=cur.get("doc_date"), page=cur.get(f"{field}_page") or cur.get(f"{field.split('_')[0]}_page"), quote=cur.get(qk),
                             label=f"{c['name']} FY{cur['fy_end'][:4]} report")
                 return num(cur[field] * rate, s)
 
@@ -96,6 +100,8 @@ def build_companies(sec, market):
             if rec["cash_taxes_paid_usd"] and cur.get("cash_taxes_page"):
                 rec["cash_taxes_paid_usd"]["src"]["page"] = cur["cash_taxes_page"]
             rec["rd_usd"] = h("rd")
+            for f in CASH_FLOW:
+                rec[f"{f}_usd"] = h(f)
             if "payroll" in cur:
                 pdate = cur.get("urd_date") if cur.get("payroll_src", src_url) != src_url and cur.get("urd_date") else cur.get("doc_date")
                 ps = resolve(cur.get("payroll_src", src_url), key, sec, as_of=pdate, page=cur.get("payroll_page"), quote=cur.get("payroll_quote"),
@@ -105,6 +111,10 @@ def build_companies(sec, market):
                 rec["notes"].append(cur["fx_note"])
         if rec["reporting_currency"] != "USD" and key != "AMX":
             rec["notes"].append(f"Converted from {rec['reporting_currency']} at the snapshot rate ({fx[rec['reporting_currency']]:.4f} USD).")
+
+        if cur.get("no_dividends"):
+            assert not rec.get("dividends_paid_usd"), key
+            rec["dividends_paid_usd"] = num(0, {**sec_src(key, "annual", sec), "quote": "No dividend payments in the cash-flow statement"})
 
         # jobs and median pay
         jdate = cur.get("urd_date") or cur.get("doc_date")

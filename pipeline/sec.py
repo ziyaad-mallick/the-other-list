@@ -21,6 +21,12 @@ CONCEPTS = {
     "pretax_income": ["IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
                       "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
                       "ProfitLossBeforeTax"],
+    # cash-flow statement; stored as positive magnitudes in build.py
+    "stock_based_comp": ["ShareBasedCompensation", "AllocatedShareBasedCompensationExpense", "AdjustmentsForSharebasedPayments"],
+    "capex": ["PaymentsToAcquirePropertyPlantAndEquipment", "PaymentsToAcquireProductiveAssets",
+              "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"],
+    "dividends_paid": ["PaymentsOfDividendsCommonStock", "PaymentsOfDividends", "DividendsPaidClassifiedAsFinancingActivities",
+                       "DividendsPaidToEquityHoldersOfParentClassifiedAsFinancingActivities"],
 }
 
 

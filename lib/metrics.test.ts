@@ -65,3 +65,17 @@ describe("headline totals", () => {
     expect(t.keptPct).toBeLessThan(100);
   });
 });
+
+describe("pay benchmark and per-employee figures", () => {
+  it("median pay vs the BLS US median", () => {
+    expect(m.vsUsMedian(282_050, 50_980)!.toFixed(1)).toBe("5.5");
+    expect(m.vsUsMedian(40_206, 50_980)!.toFixed(1)).toBe("0.8");
+    expect(m.vsUsMedian(30_520, 50_980)!.toFixed(1)).toBe("0.6");
+    expect(m.vsUsMedian(null, 50_980)).toBeNull();
+  });
+  it("per-employee", () => {
+    expect(m.perEmployee(6e9, 42_000)).toBeCloseTo(142_857, 0);
+    expect(m.perEmployee(null, 10)).toBeNull();
+    expect(m.perEmployee(1, 0)).toBeNull();
+  });
+});

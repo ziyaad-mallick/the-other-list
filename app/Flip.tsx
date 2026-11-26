@@ -2,8 +2,11 @@
 
 import { LayoutGroup, motion } from "framer-motion";
 import { Fragment, useMemo, useState } from "react";
-import { companies, drawerNotes, isWalton, money, people, ROLE, sharedName, type Person, type Src } from "@/lib/data";
-import { forbesOrder, indexExposure, minorityOfNetWorth, rankDeltas, valueOrder } from "@/lib/metrics";
+import { companies, context, drawerNotes, isWalton, money, people, ROLE, sharedName, type Person, type Src } from "@/lib/data";
+import everydayJson from "../data/everyday.json";
+import { forbesOrder, indexExposure, minorityOfNetWorth, perEmployee, rankDeltas, valueOrder, vsUsMedian } from "@/lib/metrics";
+
+type Everyday = { text: string; facts: { figure: string; source_type: string; quote: string; url: string; as_of: string; publisher: string }[] };
 
 type SortKey = "jobs" | "median" | "gdp";
 type Mode = { view: "forbes" | "value"; sort?: { key: SortKey; dir: 1 | -1 } };
@@ -194,15 +197,31 @@ function Detail({ p, balance, setBalance }: { p: Row; balance: number; setBalanc
   const rest = 100 - kept - (inst ?? 0);
   const exp = indexExposure(balance, c.sp500_weight_pct?.value ?? null);
   const v = deltas.get(p.id);
-  const fin: [string, { value: number; src: Src } | null | undefined, string?][] = [
-    ["Revenue", c.revenue_usd],
-    ["EBITDA", c.ebitda_usd, "operating income + depreciation & amortisation"],
-    ["Payroll", c.payroll_usd, c.payroll_usd?.method === "floor" ? "at least: jobs × median pay" : "reported"],
-    ["Cash taxes paid", c.cash_taxes_paid_usd],
+  const usMedian = context.us_median_wage.value;
+  const ratio = vsUsMedian(c.median_pay_usd?.value ?? null, usMedian);
+  const sbcPer = perEmployee(c.stock_based_comp_usd?.value ?? null, c.jobs.value);
+  const everyday = (everydayJson as Record<string, Everyday>)[p.company];
+  const economy: [string, { value: number; src: Src } | null | undefined, string?][] = [
+    ["CapEx", c.capex_usd, "physical investment"],
     ["R&D", c.rd_usd],
+    ["Cash taxes paid", c.cash_taxes_paid_usd],
   ];
   return (
     <motion.div className="detail" initial={{ opacity: 0, y: -4 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.18 }}>
+      {everyday && (
+        <div className="everyday">
+          <h4>In everyday life</h4>
+          <p>{everyday.text}</p>
+          <ul>
+            {everyday.facts.map((f) => (
+              <li key={f.url + f.figure}>
+                <SrcLink src={{ label: f.publisher, url: f.url, as_of: f.as_of, quote: f.quote }}>{f.figure}</SrcLink>
+                <span className={`badge b-${f.source_type.split(" ")[0].toLowerCase()}`}>{f.source_type}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       <div className="d-col">
         <h4>Who owns the rest of {c.name}</h4>
         <div className="bar" aria-label="ownership split">
@@ -231,19 +250,29 @@ function Detail({ p, balance, setBalance }: { p: Row; balance: number; setBalanc
 
       <div className="d-col">
         <h4>Company footprint <span className="fy">FY ending {c.fiscal_year_end}</span></h4>
+        <p className="fin-head">Workforce</p>
         <dl className="fin">
           <dt>Jobs</dt>
           <dd><SrcLink src={c.jobs.src}>{c.jobs.more_than ? ">" : ""}{c.jobs.value.toLocaleString("en-US")}</SrcLink> <span className="small">{c.jobs.basis}</span></dd>
           <dt>Median pay</dt>
-          <dd>{c.median_pay_usd ? <SrcLink src={c.median_pay_usd.src}>{money(c.median_pay_usd.value)}</SrcLink> : <span className="na">not disclosed</span>}</dd>
-          {fin.map(([k, n, hint]) => (
+          <dd>{c.median_pay_usd ? <><SrcLink src={c.median_pay_usd.src}>{money(c.median_pay_usd.value)}</SrcLink>{ratio != null && <span className="bench" title={`BLS all-workers median, ${context.us_median_wage.period}: $${usMedian.toLocaleString("en-US")}`}> {ratio.toFixed(1)}× US median</span>}</> : <span className="na">not disclosed</span>}</dd>
+          <dt>Est. payroll</dt>
+          <dd>{c.payroll_usd ? <SrcLink src={c.payroll_usd.src}>{money(c.payroll_usd.value)}</SrcLink> : <span className="na">n/a</span>} {c.payroll_usd && <span className="small">{c.payroll_usd.method === "floor" ? "at least: jobs × median pay" : "reported"}</span>}</dd>
+          <dt>Stock-based comp</dt>
+          <dd>{c.stock_based_comp_usd ? <><SrcLink src={c.stock_based_comp_usd.src}>{money(c.stock_based_comp_usd.value)}</SrcLink> / yr{sbcPer != null && <span className="small"> · ~${Math.round(sbcPer / 1000).toLocaleString("en-US")}k per employee</span>}</> : <span className="na">not reported</span>}</dd>
+        </dl>
+        <p className="fin-head">Real economy</p>
+        <dl className="fin">
+          <dt>GDP contrib.</dt>
+          <dd>{c.gdp_contribution_usd ? <>{money(c.gdp_contribution_usd.value)} <span className="small">EBITDA + payroll, {c.gdp_contribution_usd.method}</span></> : <span className="na">n/a</span>}</dd>
+          {economy.map(([k, n, hint]) => (
             <Fragment key={k}>
               <dt>{k}</dt>
-              <dd>{n ? <SrcLink src={n.src}>{money(n.value)}</SrcLink> : <span className="na">n/a</span>} {n && hint && <span className="small">{hint}</span>}</dd>
+              <dd>{n ? <SrcLink src={n.src}>{money(n.value)}</SrcLink> : <span className="na">not reported</span>} {n && hint && <span className="small">{hint}</span>}</dd>
             </Fragment>
           ))}
-          <dt>GDP contribution</dt>
-          <dd>{c.gdp_contribution_usd ? <>{money(c.gdp_contribution_usd.value)} <span className="small">EBITDA + payroll, {c.gdp_contribution_usd.method}</span></> : <span className="na">n/a</span>}</dd>
+          <dt>Dividends paid</dt>
+          <dd>{c.dividends_paid_usd ? <SrcLink src={c.dividends_paid_usd.src}>{c.dividends_paid_usd.value === 0 ? "$0 · reinvested" : money(c.dividends_paid_usd.value)}</SrcLink> : <span className="na">n/a</span>}</dd>
         </dl>
         {c.notes.map((n) => <p key={n} className="small">{n}</p>)}
       </div>

@@ -1,0 +1,302 @@
+{
+ "AMZN": {
+  "text": "Delivers everyday shopping to the door fast: in 2025 Prime members got over 13 billion items the same or next day, and in the US half of those items were groceries and everyday essentials.",
+  "facts": [
+   {
+    "figure": "13B+ items same/next day (2025)",
+    "source_type": "Company-reported",
+    "quote": "with over 13 billion items arriving the same or next day globally. In the U.S., Prime members received over 8 billion items the same or next day ... with groceries and everyday essentials making up half of the total items.",
+    "url": "https://press.aboutamazon.com/2026/2/amazon-sets-new-prime-delivery-speed-record-in-2025-with-over-13-billion-items-arriving-the-same-or-next-day-around-the-world",
+    "as_of": "2026-02-03",
+    "publisher": "Amazon press release"
+   }
+  ]
+ },
+ "WMT": {
+  "text": "A weekly grocery and household run for a large share of the world: about 280 million customers a week across 10,900+ stores and its websites.",
+  "facts": [
+   {
+    "figure": "~280M customers a week",
+    "source_type": "Company-reported",
+    "quote": "Each week, approximately 280 million customers and members visit more than 10,900 stores and numerous eCommerce websites in 19 countries.",
+    "url": "https://corporate.walmart.com/news/2026/04/23/walmart-releases-2026-annual-report-and-proxy-statement",
+    "as_of": "2026-04-23",
+    "publisher": "Walmart"
+   }
+  ]
+ },
+ "NFLX": {
+  "text": "Films and series at home: over 325 million paid memberships, and 96 billion hours watched in the second half of 2025.",
+  "facts": [
+   {
+    "figure": "325M+ paid memberships",
+    "source_type": "Company-reported",
+    "quote": "With over 325M paid memberships, we're now serving an audience approaching one billion people globally.",
+    "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+    "as_of": "2026-01-20",
+    "publisher": "Netflix Q4 2025 shareholder letter"
+   },
+   {
+    "figure": "96B hours (H2 2025)",
+    "source_type": "Company-reported",
+    "quote": "in the second half of 2025, our members watched 96 billion hours on Netflix",
+    "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+    "as_of": "2026-01-20",
+    "publisher": "Netflix Q4 2025 shareholder letter"
+   }
+  ]
+ },
+ "SPOT": {
+  "text": "Music and podcasts on the phone, free or paid: 751 million monthly users at the end of 2025, 290 million of them paying.",
+  "facts": [
+   {
+    "figure": "751M monthly users; 290M paying",
+    "source_type": "Company-reported",
+    "quote": "Premium Subscribers grew 10% Y/Y to 290 million Monthly Active Users (MAUs) climbed 11% Y/Y to 751 million",
+    "url": "https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/",
+    "as_of": "2026-02-10",
+    "publisher": "Spotify Q4 2025 earnings"
+   }
+  ]
+ },
+ "ABNB": {
+  "text": "Places to stay in other people's homes: 533 million nights and experience seats booked in 2025, hosted by 5 million+ people.",
+  "facts": [
+   {
+    "figure": "533.0M nights & seats (2025)",
+    "source_type": "Company-reported",
+    "quote": "Nights and Seats Booked 121.9M 10% Y/Y | 533.0M 8% Y/Y",
+    "url": "https://s26.q4cdn.com/656283129/files/doc_financials/2025/q4/Airbnb_Q4-2025-Shareholder-Letter.pdf",
+    "as_of": "2026-02-12",
+    "publisher": "Airbnb Q4 2025 shareholder letter"
+   },
+   {
+    "figure": "5M+ hosts",
+    "source_type": "Company-reported",
+    "quote": "has since grown to over 5 million hosts who have welcomed over 2.5 billion guest arrivals",
+    "url": "https://s26.q4cdn.com/656283129/files/doc_financials/2025/q4/Airbnb_Q4-2025-Shareholder-Letter.pdf",
+    "as_of": "2026-02-12",
+    "publisher": "Airbnb Q4 2025 shareholder letter"
+   }
+  ]
+ },
+ "ITX": {
+  "text": "Affordable fashion on the high street (Zara, Pull&Bear, Bershka and others): 5,460 stores at the end of FY2025, plus online.",
+  "facts": [
+   {
+    "figure": "5,460 stores",
+    "source_type": "Company-reported",
+    "quote": "At the end of FY2025 Inditex operated 5,460 stores.",
+    "url": "https://www.inditex.com/itxcomweb/gp/en/press/news-detail/b870d5ec-6b7e-491d-b38e-340cd69036df/fy2025-results",
+    "as_of": "2026-03-11",
+    "publisher": "Inditex FY2025 results"
+   }
+  ]
+ },
+ "OR": {
+  "text": "Shampoo, skincare and make-up on the bathroom shelf: L'Oréal says it distributed over 7 billion products in a year.",
+  "facts": [
+   {
+    "figure": "7B+ products distributed",
+    "source_type": "Company-reported",
+    "quote": "Over 7 billion products distributed globally",
+    "url": "https://loreal-finance.com/eng/loreal-glance",
+    "as_of": "2026-02-12",
+    "publisher": "L'Oréal, Group at a glance (page undated; date is the 2025 results release)"
+   }
+  ]
+ },
+ "GOOGL": {
+  "text": "Search, Maps, YouTube and Android are free to use; on top of those, over 325 million paid subscriptions and 750 million monthly users of the Gemini app.",
+  "facts": [
+   {
+    "figure": "325M+ paid subscriptions",
+    "source_type": "Company-reported",
+    "quote": "We have over 325 million paid subscriptions across consumer services, with strong adoption for Google One and YouTube Premium.",
+    "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q4-2025/",
+    "as_of": "2026-02-04",
+    "publisher": "Alphabet Q4 2025 CEO remarks"
+   },
+   {
+    "figure": "750M+ Gemini monthly users",
+    "source_type": "Company-reported",
+    "quote": "And our Gemini App now has over 750 million monthly active users.",
+    "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q4-2025/",
+    "as_of": "2026-02-04",
+    "publisher": "Alphabet Q4 2025 CEO remarks"
+   }
+  ]
+ },
+ "META": {
+  "text": "Free messaging and social apps: 3.58 billion people a day used Facebook, Instagram, WhatsApp or Messenger in December 2025.",
+  "facts": [
+   {
+    "figure": "3.58B daily people",
+    "source_type": "Company-reported",
+    "quote": "Family daily active people (DAP) – DAP was 3.58 billion on average for December 2025, an increase of 7% year-over-year.",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+    "as_of": "2026-01-28",
+    "publisher": "Meta Q4 2025 results"
+   }
+  ]
+ },
+ "TSLA": {
+  "text": "Electric cars: 1,636,129 delivered in 2025.",
+  "facts": [
+   {
+    "figure": "1,636,129 vehicles (2025)",
+    "source_type": "Company-reported",
+    "quote": "Full year 2025 Production: 1,654,667 Deliveries: 1,636,129",
+    "url": "https://www.teslarati.com/tesla-q4-fy-2025-vehicle-delivery-production-results/",
+    "as_of": "2026-01-02",
+    "publisher": "Tesla's own post, as embedded by Teslarati (ir.tesla.com blocked automated reads)"
+   }
+  ]
+ },
+ "NVDA": {
+  "text": "Most of the chips that train and run AI chatbots and image tools are Nvidia's, rented through cloud companies rather than bought by people directly.",
+  "facts": [
+   {
+    "figure": "60%+ of AI compute",
+    "source_type": "Third-party estimate",
+    "quote": "NVIDIA AI chips currently account for over 60% of total compute, with Google and Amazon making up much of the remainder.",
+    "url": "https://epoch.ai/data-insights/ai-chip-production",
+    "as_of": "2026-01-09",
+    "publisher": "Epoch AI"
+   }
+  ]
+ },
+ "DELL": {
+  "text": "Laptops, desktops and servers: about one in seven PCs shipped in 2025, and the top server vendor by revenue.",
+  "facts": [
+   {
+    "figure": "14.4% of PCs shipped (2025, #3)",
+    "source_type": "Third-party estimate",
+    "quote": "3. Dell Technologies | 41.1 million units | 14.4% market share",
+    "url": "https://www.idc.com/?p=107385",
+    "as_of": "2025-12-31",
+    "publisher": "IDC, preliminary 2025 PC shipments"
+   },
+   {
+    "figure": "#1 in server revenue, 13.4% (Q2 2026)",
+    "source_type": "Third-party estimate",
+    "quote": "with a 13.4% revenue share and 165.4% YoY growth",
+    "url": "https://www.idc.com/resource-center/press-releases/2q2026-wwserver-tracker/",
+    "as_of": "2026-09-10",
+    "publisher": "IDC Worldwide Quarterly Server Tracker"
+   }
+  ]
+ },
+ "ORCL": {
+  "text": "Business databases and cloud, and, through Oracle Health (formerly Cerner), the electronic patient records at about one in five US acute-care hospitals.",
+  "facts": [
+   {
+    "figure": "20.1% of US acute-care hospitals' EHRs (2024)",
+    "source_type": "Federal data",
+    "quote": "Cerner/Oracle Health 12.2% 12.3% 14.6% 21.2% 21.7% 21.2% 18.6% 20.1% (2010-2024)",
+    "url": "https://healthit.gov/data/data-briefs/non-federal-acute-care-hospital-electronic-health-record-adoption-2008-2024/",
+    "as_of": "2026-06-01",
+    "publisher": "ASTP/ONC Data Brief 83, Appendix Table 1"
+   }
+  ]
+ },
+ "BRK": {
+  "text": "Car insurance (GEICO), freight trains (BNSF) and the electricity bill for millions of homes, all owned by one holding company.",
+  "facts": [
+   {
+    "figure": "5.4M utility customers",
+    "source_type": "Company-reported",
+    "quote": "four regulated U.S. utility companies (collectively, \"U.S. utilities\") serving approximately 5.4 million retail customers",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+    "as_of": "2026-03-02",
+    "publisher": "Berkshire Hathaway 2025 Form 10-K"
+   },
+   {
+    "figure": "GEICO: ~11.6% of US auto insurance, #3",
+    "source_type": "Company-reported",
+    "quote": "with GEICO's market share being the third largest at approximately 11.6%",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+    "as_of": "2026-03-02",
+    "publisher": "Berkshire Hathaway 2025 Form 10-K"
+   }
+  ]
+ },
+ "MSFT": {
+  "text": "Office software, Windows and the Azure cloud; its AI assistant inside Office passed 30 million paid seats.",
+  "facts": [
+   {
+    "figure": "30M+ Microsoft 365 Copilot seats",
+    "source_type": "Company-reported",
+    "quote": "Microsoft 365 Copilot reached over 30 million paid seats",
+    "url": "https://news.microsoft.com/source/2026/07/29/microsoft-cloud-and-ai-strength-fuels-fourth-quarter-results-4",
+    "as_of": "2026-07-29",
+    "publisher": "Microsoft Q4 FY26 results"
+   }
+  ]
+ },
+ "CRM": {
+  "text": "Customer-records software used by sales and support teams; the largest CRM vendor by revenue share.",
+  "facts": [
+   {
+    "figure": "20.0% of CRM software (2025, #1)",
+    "source_type": "Third-party estimate",
+    "quote": "According to IDC, in 2025, Salesforce led all CRM vendors with a 20.0% market share.",
+    "url": "https://www.salesforce.com/news/stories/idc-crm-market-share-ranking-2026/",
+    "as_of": "2026-06-04",
+    "publisher": "IDC Software Tracker, as published by Salesforce"
+   }
+  ]
+ },
+ "SHOP": {
+  "text": "The checkout behind millions of independent online shops: $378.4 billion of goods sold through it in 2025.",
+  "facts": [
+   {
+    "figure": "$378.4B of goods sold (2025)",
+    "source_type": "Company-reported",
+    "quote": "For the year ended December 31, 2025 we facilitated GMV of $378.4 billion",
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+    "as_of": "2025-12-31",
+    "publisher": "Shopify FY2025 Form 10-K"
+   }
+  ]
+ },
+ "COIN": {
+  "text": "A regulated place to buy, hold and sell crypto: more than 12% of all crypto in the world sat on Coinbase in 2025.",
+  "facts": [
+   {
+    "figure": "12%+ of all crypto held",
+    "source_type": "Company-reported",
+    "quote": "in 2025, more than 12% of all crypto in the world resided on Coinbase.",
+    "url": "https://s27.q4cdn.com/397450999/files/doc_financials/2025/q4/coin-20260212.pdf",
+    "as_of": "2026-02-12",
+    "publisher": "Coinbase Q4 2025 shareholder letter"
+   }
+  ]
+ },
+ "AMX": {
+  "text": "Mobile phone and internet service across Latin America (Telcel, Claro): 332 million wireless subscribers.",
+  "facts": [
+   {
+    "figure": "332M wireless subscribers (Sep 2026)",
+    "source_type": "Company-reported",
+    "quote": "At the end of September we had 413 million access lines, of which 332 million were wireless subscribers",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001129137/000114036126040507/ef20084200_6k.htm",
+    "as_of": "2026-09-30",
+    "publisher": "América Móvil 3Q26 results (Form 6-K)"
+   }
+  ]
+ },
+ "MC": {
+  "text": "Luxury goods, wine and spirits (Louis Vuitton, Dior, Sephora, Moët and others) sold through 6,283 stores.",
+  "facts": [
+   {
+    "figure": "6,283 stores, 75 Maisons (2025)",
+    "source_type": "Company-reported",
+    "quote": "75 Maisons; 81 countries; 6,283 stores",
+    "url": "https://www.lvmh.com/static/letter-to-shareholders-january-2026/",
+    "as_of": "2025-12-31",
+    "publisher": "LVMH letter to shareholders, January 2026"
+   }
+  ]
+ }
+}

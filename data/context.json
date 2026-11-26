@@ -40,5 +40,11 @@
     "scf_2025": {"bottom_half_income_pct": 31, "upper_middle_pct": 77, "top_decile_pct": 97,
                  "quote": "31 percent of families in the bottom half of the distribution held stock, compared with 77 percent of families in the upper-middle group and 97 percent of families in the top decile.",
                  "src": {"label": "Federal Reserve, Changes in U.S. Family Finances from 2022 to 2025", "url": "https://www.federalreserve.gov/publications/files/scf26.pdf", "page": 25, "as_of": "2026-10-09"}}
-  }
+  },
+  "us_median_wage": {"value": 50980, "period": "May 2025", "hourly": 24.51, "workers": 155495730,
+    "derivation": "BLS median hourly wage for all occupations ($24.51) x 2,080 hours, the work year BLS uses to annualise OEWS wages",
+    "src": {"label": "BLS Occupational Employment and Wage Statistics, May 2025, Table 1", "url": "https://www.bls.gov/news.release/ocwage.t01.htm", "as_of": "2026-05-15",
+            "quote": "All occupations 155,495,730 $33.54 $69,770 $24.51"},
+    "src2": {"label": "BLS OEWS technical note", "url": "https://www.bls.gov/news.release/ocwage.tn.htm", "as_of": "2026-05-15",
+             "quote": "the annual rate for an occupation is calculated by multiplying the hourly wage rate by a typical work year of 2,080 hours"}}
 }

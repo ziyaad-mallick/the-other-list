@@ -122,6 +122,10 @@ export default function Page() {
           <li><b>No credit splitting.</b> Co-founders each show the whole company, so rows don&apos;t add up. The number is the company&apos;s, not a claim that one person made it.</li>
           <li><b>Ranked</b>: founders, co-founders and people who built a company by acquisition. Heirs and hired CEOs are listed, not ranked. Rank changes count places within this list of 24.</li>
           <li><b>Jobs</b> are from the latest annual filing; <b>median pay</b> from the CEO pay-ratio disclosure in US proxies. Non-US companies don&apos;t disclose it.</li>
+          <li><b>× US median</b> compares that figure with the BLS all-workers median, ${context.us_median_wage.value.toLocaleString("en-US")}{" "}
+            (<A href={context.us_median_wage.src.url}>${context.us_median_wage.hourly}/hour × 2,080 hours, May 2025</A>). The SEC median covers global and part-time staff, so companies with large retail or warehouse workforces abroad skew lower against a US-only benchmark.</li>
+          <li><b>Stock-based comp</b> is the GAAP grant-date expense across all staff, executives included. It is not cash anyone realised, and large executive awards can pull the per-employee average up.</li>
+          <li><b>In everyday life</b> sits in the detail panel only and never affects the ranking. Each figure is badged by who produced it: company-reported, federal data, or a third-party estimate.</li>
           <li>
             <b>GDP contribution</b> = EBITDA + payroll, the income approach to value added. Where a company reports payroll we use it;
             otherwise payroll is jobs × median pay, a floor. The floor is low: Meta&apos;s 10-K lists employee compensation across its two segments of{" "}

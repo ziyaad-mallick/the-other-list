@@ -15,6 +15,14 @@ export const gdpContribution = (ebitdaUsd: number | null, payrollUsd: number | n
 
 export const payrollFloor = (jobs: number, medianPay: number) => jobs * medianPay;
 
+/** Median pay as a multiple of the US all-workers median (BLS OEWS). */
+export const vsUsMedian = (medianPay: number | null, usMedian: number) =>
+  medianPay == null || usMedian <= 0 ? null : medianPay / usMedian;
+
+/** A company-wide total spread over headcount, e.g. stock-based comp per employee. */
+export const perEmployee = (total: number | null, jobs: number) =>
+  total == null || jobs <= 0 ? null : total / jobs;
+
 export const indexExposure = (balance: number, weightPct: number | null) =>
   weightPct == null ? null : (balance * weightPct) / 100;
 

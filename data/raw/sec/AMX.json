@@ -18,6 +18,9 @@
     "cash_taxes_paid": null,
     "rd": null,
     "personnel_cost": null,
-    "pretax_income": null
+    "pretax_income": null,
+    "stock_based_comp": null,
+    "capex": null,
+    "dividends_paid": null
   }
 }

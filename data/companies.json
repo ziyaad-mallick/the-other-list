@@ -94,6 +94,33 @@
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 2825000000.0,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 8527000000.0,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 0,
+      "src": {
+        "label": "Tesla annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "as_of": "2026-01-29",
+        "quote": "No dividend payments in the cash-flow statement"
+      }
+    },
     "jobs": {
       "value": 134785,
       "src": {
@@ -219,6 +246,33 @@
       }
     },
     "rd_usd": null,
+    "stock_based_comp_usd": {
+      "value": 19467000000.0,
+      "src": {
+        "label": "Amazon annual report (10-K), filed 2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 131819000000.0,
+      "src": {
+        "label": "Amazon annual report (10-K), filed 2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06",
+        "concept": "us-gaap:PaymentsToAcquireProductiveAssets"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 0,
+      "src": {
+        "label": "Amazon annual report (10-K), filed 2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "as_of": "2026-02-06",
+        "quote": "No dividend payments in the cash-flow statement"
+      }
+    },
     "jobs": {
       "value": 1576000,
       "src": {
@@ -349,6 +403,33 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
         "as_of": "2026-02-05",
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "stock_based_comp_usd": {
+      "value": 24953000000.0,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 91447000000.0,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 10049000000.0,
+      "src": {
+        "label": "Alphabet annual report (10-K), filed 2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "as_of": "2026-02-05",
+        "concept": "us-gaap:PaymentsOfDividends"
       }
     },
     "jobs": {
@@ -486,6 +567,33 @@
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 20427000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 69691000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 5324000000.0,
+      "src": {
+        "label": "Meta annual report (10-K), filed 2026-01-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "as_of": "2026-01-29",
+        "concept": "us-gaap:PaymentsOfDividends"
+      }
+    },
     "payroll_usd": {
       "value": 50702000000.0,
       "src": {
@@ -619,6 +727,33 @@
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 723000000.0,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 2633000000.0,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 1459000000.0,
+      "src": {
+        "label": "Dell Technologies annual report (10-K), filed 2026-03-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "as_of": "2026-03-16",
+        "concept": "us-gaap:PaymentsOfDividendsCommonStock"
+      }
+    },
     "jobs": {
       "value": 97000,
       "src": {
@@ -734,6 +869,25 @@
       }
     },
     "rd_usd": null,
+    "stock_based_comp_usd": null,
+    "capex_usd": {
+      "value": 20927000000.0,
+      "src": {
+        "label": "Berkshire Hathaway annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 0,
+      "src": {
+        "label": "Berkshire Hathaway annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+        "as_of": "2026-03-02",
+        "quote": "No dividend payments in the cash-flow statement"
+      }
+    },
     "jobs": {
       "value": 387800,
       "src": {
@@ -854,6 +1008,33 @@
         "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
         "as_of": "2026-07-29",
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "stock_based_comp_usd": {
+      "value": 12405000000.0,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 115948000000.0,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 26445000000.0,
+      "src": {
+        "label": "Microsoft annual report (10-K), filed 2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "as_of": "2026-07-29",
+        "concept": "us-gaap:PaymentsOfDividendsCommonStock"
       }
     },
     "jobs": {
@@ -980,6 +1161,33 @@
       }
     },
     "rd_usd": null,
+    "stock_based_comp_usd": {
+      "value": 3603000000.0,
+      "src": {
+        "label": "Walmart annual report (10-K), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13",
+        "concept": "us-gaap:AllocatedShareBasedCompensationExpense"
+      }
+    },
+    "capex_usd": {
+      "value": 26642000000.0,
+      "src": {
+        "label": "Walmart annual report (10-K), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 7507000000.0,
+      "src": {
+        "label": "Walmart annual report (10-K), filed 2026-03-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "as_of": "2026-03-13",
+        "concept": "us-gaap:PaymentsOfDividendsCommonStock"
+      }
+    },
     "jobs": {
       "value": 2100000,
       "src": {
@@ -1103,6 +1311,27 @@
       }
     },
     "rd_usd": null,
+    "stock_based_comp_usd": null,
+    "capex_usd": {
+      "value": 2975968265.5334473,
+      "src": {
+        "label": "Inditex FY2026 report",
+        "url": "https://www.inditex.com/itxcomweb/api/media/1da2c9d1-dbca-49fb-9563-982a8a27fae6/INDITEXFullYear2025.pdf",
+        "as_of": "2026-03-11",
+        "page": 5,
+        "quote": "Capital expenditure (2,712) (2,672)"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 5744540512.561798,
+      "src": {
+        "label": "Inditex FY2026 report",
+        "url": "https://www.inditex.com/itxcomweb/api/media/1c6d4284-665d-4a4b-bd49-c317cc75d086/Results2025_Annexes.pdf",
+        "as_of": "2026-03-11",
+        "page": 4,
+        "quote": "Dividends (5,235) (4,797)"
+      }
+    },
     "payroll_usd": {
       "value": 6489629912.376404,
       "src": {
@@ -1239,6 +1468,33 @@
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 4811000000.0,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 55663000000.0,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 5787000000.0,
+      "src": {
+        "label": "Oracle annual report (10-K), filed 2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "as_of": "2026-06-22",
+        "concept": "us-gaap:PaymentsOfDividendsCommonStock"
+      }
+    },
     "jobs": {
       "value": 141000,
       "src": {
@@ -1372,6 +1628,33 @@
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 6386000000.0,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 6042000000.0,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "concept": "us-gaap:PaymentsToAcquireProductiveAssets"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 974000000.0,
+      "src": {
+        "label": "Nvidia annual report (10-K), filed 2026-02-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "as_of": "2026-02-25",
+        "concept": "us-gaap:PaymentsOfDividends"
+      }
+    },
     "jobs": {
       "value": 42000,
       "src": {
@@ -1488,6 +1771,25 @@
       }
     },
     "rd_usd": null,
+    "stock_based_comp_usd": null,
+    "capex_usd": {
+      "value": 6369000000.0,
+      "src": {
+        "label": "América Movil annual report (20-F), filed 2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-04-28",
+        "quote": "Purchase of property, plant and equipment (131,101,509) (113,083,319) (114,431,308) (6,369)"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 1846000000.0,
+      "src": {
+        "label": "América Movil annual report (20-F), filed 2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+        "as_of": "2026-04-28",
+        "quote": "Dividends paid (30,466,636) (31,007,121) (33,159,586) (1,846)"
+      }
+    },
     "jobs": {
       "value": 177711,
       "src": {
@@ -1589,6 +1891,36 @@
       }
     },
     "rd_usd": null,
+    "stock_based_comp_usd": {
+      "value": 181060016.15524292,
+      "src": {
+        "label": "LVMH FY2025 report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2026-01-27",
+        "page": 52,
+        "quote": "17.2 Expense for the period ... Bonus share plans 165 127 117"
+      }
+    },
+    "capex_usd": {
+      "value": 4225831043.7202454,
+      "src": {
+        "label": "LVMH FY2025 report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2026-01-27",
+        "page": 48,
+        "quote": "Purchase of property, plant and equipment 6 (3,851) (4,715) (6,807)"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 7094260632.991791,
+      "src": {
+        "label": "LVMH FY2025 report",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aXjqHgIvOtkhB_8I_Financialdocuments-December31%2C2025.pdf",
+        "as_of": "2026-01-27",
+        "page": 48,
+        "quote": "Interim and final dividends paid by LVMH SE (6,465) (6,492) (6,251)"
+      }
+    },
     "payroll_usd": {
       "value": 16699220156.669617,
       "src": {
@@ -1715,6 +2047,36 @@
         "quote": "R&I expenses (1,288.9) ... (1,354.7) ... (1,380.6)"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 272467890.9778595,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 294,
+        "quote": "share-based payment (including free shares) 5.5 248.3 239.1 168.5"
+      }
+    },
+    "capex_usd": {
+      "value": 1640842679.7389984,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 294,
+        "quote": "Purchases of property, plant and equipment and intangible assets (1,495.3) (1,641.7) (1,488.7)"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 4298255050.182343,
+      "src": {
+        "label": "L'Oréal FY2025 report",
+        "url": "https://www.loreal-finance.com/site/URD25/app/en/uploads/2160/Document/loreal-urd-2025-en.2911a.pdf",
+        "as_of": "2026-03-18",
+        "page": 294,
+        "quote": "Dividends paid (3,917.0) (3,614.9) (3,425.6)"
+      }
+    },
     "payroll_usd": {
       "value": 9370020436.048508,
       "src": {
@@ -1835,6 +2197,33 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
         "as_of": "2026-02-10",
         "concept": "ifrs-full:ResearchAndDevelopmentExpense"
+      }
+    },
+    "stock_based_comp_usd": {
+      "value": 271041357.51724243,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "concept": "ifrs-full:AdjustmentsForSharebasedPayments"
+      }
+    },
+    "capex_usd": {
+      "value": 66937339.305877686,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 0,
+      "src": {
+        "label": "Spotify annual report (20-F), filed 2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "as_of": "2026-02-10",
+        "quote": "No dividend payments in the cash-flow statement"
       }
     },
     "payroll_usd": {
@@ -1964,6 +2353,25 @@
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 1592000000.0,
+      "src": {
+        "label": "Airbnb annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": null,
+    "dividends_paid_usd": {
+      "value": 0,
+      "src": {
+        "label": "Airbnb annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "as_of": "2026-02-12",
+        "quote": "No dividend payments in the cash-flow statement"
+      }
+    },
     "jobs": {
       "value": 8200,
       "src": {
@@ -2090,6 +2498,33 @@
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 449000000.0,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "concept": "us-gaap:AllocatedShareBasedCompensationExpense"
+      }
+    },
+    "capex_usd": {
+      "value": 26000000.0,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 0,
+      "src": {
+        "label": "Shopify annual report (10-K), filed 2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "as_of": "2026-02-11",
+        "quote": "No dividend payments in the cash-flow statement"
+      }
+    },
     "jobs": {
       "value": 7600,
       "src": {
@@ -2203,6 +2638,33 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
         "as_of": "2026-03-02",
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "stock_based_comp_usd": {
+      "value": 3509000000.0,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 594000000.0,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 1587000000.0,
+      "src": {
+        "label": "Salesforce annual report (10-K), filed 2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "as_of": "2026-03-02",
+        "concept": "us-gaap:PaymentsOfDividends"
       }
     },
     "jobs": {
@@ -2337,6 +2799,25 @@
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
       }
     },
+    "stock_based_comp_usd": {
+      "value": 839440000.0,
+      "src": {
+        "label": "Coinbase annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": null,
+    "dividends_paid_usd": {
+      "value": 0,
+      "src": {
+        "label": "Coinbase annual report (10-K), filed 2026-02-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+        "as_of": "2026-02-12",
+        "quote": "No dividend payments in the cash-flow statement"
+      }
+    },
     "jobs": {
       "value": 4951,
       "src": {
@@ -2467,6 +2948,33 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
         "as_of": "2026-01-23",
         "concept": "us-gaap:ResearchAndDevelopmentExpense"
+      }
+    },
+    "stock_based_comp_usd": {
+      "value": 368449000.0,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "concept": "us-gaap:ShareBasedCompensation"
+      }
+    },
+    "capex_usd": {
+      "value": 688220000.0,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+      }
+    },
+    "dividends_paid_usd": {
+      "value": 0,
+      "src": {
+        "label": "Netflix annual report (10-K), filed 2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "as_of": "2026-01-23",
+        "quote": "No dividend payments in the cash-flow statement"
       }
     },
     "jobs": {

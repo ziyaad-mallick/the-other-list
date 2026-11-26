@@ -1,5 +1,6 @@
 """Data gates (SPEC.md section 8). Run: .venv/Scripts/python -m pytest pipeline/test_data.py -q"""
 import json
+import re
 from pathlib import Path
 
 import pytest
@@ -85,3 +86,44 @@ def test_sp500_weights():
 def test_forbes_ranks_unique():
     ranks = [p["forbes"]["rank"] for p in PEOPLE]
     assert len(set(ranks)) == len(ranks)
+
+
+CASH_FLOW = ["stock_based_comp_usd", "capex_usd", "dividends_paid_usd"]
+
+
+@pytest.mark.parametrize("key", sorted(COMPANIES))
+def test_cash_flow_fields(key):
+    c = COMPANIES[key]
+    for f in CASH_FLOW:
+        if c.get(f) is not None:
+            assert c[f]["value"] >= 0, f"{key}.{f} stored negative"
+            assert cited(c[f]), f"{key}.{f} lacks url/as_of/label"
+    assert c["dividends_paid_usd"] is not None, f"{key}: dividends must be a number (0 if none paid)"
+    if c.get("capex_usd"):
+        assert c["capex_usd"]["value"] <= c["revenue_usd"]["value"] * 2, f"{key}: capex above 2x revenue, unit bug?"
+
+
+EVERYDAY = json.loads((DATA / "everyday.json").read_text(encoding="utf-8"))
+CONTEXT = json.loads((DATA / "context.json").read_text(encoding="utf-8"))
+
+
+def test_everyday_covers_every_company():
+    assert set(EVERYDAY) == set(COMPANIES)
+
+
+@pytest.mark.parametrize("key", sorted(EVERYDAY))
+def test_everyday_impact_is_cited(key):
+    e = EVERYDAY[key]
+    assert e["text"] and len(e["text"]) < 300
+    assert 1 <= len(e["facts"]) <= 2
+    for f in e["facts"]:
+        assert f["url"].startswith("https://"), key
+        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", f["as_of"]), key
+        assert f["source_type"] in {"Company-reported", "Federal data", "Third-party estimate"}, key
+        assert f["quote"] and f["figure"] and f["publisher"], key
+
+
+def test_us_median_wage():
+    w = CONTEXT["us_median_wage"]
+    assert w["value"] == round(w["hourly"] * 2080, -1)
+    assert w["src"]["url"].startswith("https://www.bls.gov/") and w["src"]["as_of"]

@@ -49,6 +49,15 @@
       "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
       "start": "2025-01-01",
       "end": "2025-12-31"
-    }
+    },
+    "stock_based_comp": null,
+    "capex": {
+      "value": 20927000000,
+      "unit": "USD",
+      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "dividends_paid": null
   }
 }
