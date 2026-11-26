@@ -1,6 +1,6 @@
 {
  "AMZN": {
-  "text": "Delivers everyday shopping to the door fast: in 2025 Prime members got over 13 billion items the same or next day, and in the US half of those items were groceries and everyday essentials.",
+  "text": "Everyday shopping delivered fast (half of US same/next-day items are groceries and essentials), prescriptions delivered the same day, Prime Video, and the AWS cloud that apps like Lyft, DoorDash and United Airlines run on.",
   "facts": [
    {
     "figure": "13B+ items same/next day (2025)",
@@ -9,11 +9,35 @@
     "url": "https://press.aboutamazon.com/2026/2/amazon-sets-new-prime-delivery-speed-record-in-2025-with-over-13-billion-items-arriving-the-same-or-next-day-around-the-world",
     "as_of": "2026-02-03",
     "publisher": "Amazon press release"
+   },
+   {
+    "figure": "~100M same-day delivery customers",
+    "source_type": "Company-reported",
+    "quote": "Delivered nearly 70% more items same day in the U.S. than the year before, with Same-Day Delivery used by nearly 100 million customers.",
+    "url": "https://www.nasdaq.com/press-release/amazoncom-announces-fourth-quarter-results-2026-02-05",
+    "as_of": "2026-02-05",
+    "publisher": "Amazon Q4 2025 results"
+   },
+   {
+    "figure": "Same-day prescriptions in 3,000+ US towns",
+    "source_type": "Company-reported",
+    "quote": "Expanded Amazon Pharmacy Same-Day Delivery, with same-day delivery of prescriptions now available in 3,000+ U.S. cities and towns.",
+    "url": "https://www.nasdaq.com/press-release/amazoncom-announces-fourth-quarter-results-2026-02-05",
+    "as_of": "2026-02-05",
+    "publisher": "Amazon Q4 2025 results"
+   },
+   {
+    "figure": "AWS runs apps like Lyft, DoorDash, United",
+    "source_type": "Company-reported",
+    "quote": "Announced new AWS agreements with OpenAI, Visa , the NBA, BlackRock, Perplexity, Lyft, United Airlines, DoorDash, Salesforce",
+    "url": "https://www.nasdaq.com/press-release/amazoncom-announces-fourth-quarter-results-2026-02-05",
+    "as_of": "2026-02-05",
+    "publisher": "Amazon Q4 2025 results"
    }
   ]
  },
  "WMT": {
-  "text": "A weekly grocery and household run for a large share of the world: about 280 million customers a week across 10,900+ stores and its websites.",
+  "text": "The weekly grocery run, the pharmacy counter and same-day pickup or delivery from substantially all its stores: about 280 million customers a week.",
   "facts": [
    {
     "figure": "~280M customers a week",
@@ -22,11 +46,35 @@
     "url": "https://corporate.walmart.com/news/2026/04/23/walmart-releases-2026-annual-report-and-proxy-statement",
     "as_of": "2026-04-23",
     "publisher": "Walmart"
+   },
+   {
+    "figure": "$285.5B of US groceries (FY2026)",
+    "source_type": "Company-reported",
+    "quote": "Grocery $ 285,482 $ 276,003 $ 264,210 (Walmart U.S., $ millions)",
+    "url": "https://stock.walmart.com/_assets/_ad811fbebaa93c5abb0a97787add62e4/walmart/db/950/9988/annual_report/Walmart+2026+Annual+Report.pdf",
+    "as_of": "2026-03-13",
+    "publisher": "Walmart FY2026 Annual Report"
+   },
+   {
+    "figure": "$69.5B pharmacy & health (US, FY2026)",
+    "source_type": "Company-reported",
+    "quote": "Health and wellness 69,547 62,092 54,898 ... Health and wellness includes pharmacy, over-the-counter drugs and other medical products, and optical services.",
+    "url": "https://stock.walmart.com/_assets/_ad811fbebaa93c5abb0a97787add62e4/walmart/db/950/9988/annual_report/Walmart+2026+Annual+Report.pdf",
+    "as_of": "2026-03-13",
+    "publisher": "Walmart FY2026 Annual Report"
+   },
+   {
+    "figure": "Same-day pickup & delivery at ~all stores",
+    "source_type": "Company-reported",
+    "quote": "Substantially all our stores provide same-day pickup and delivery",
+    "url": "https://stock.walmart.com/_assets/_ad811fbebaa93c5abb0a97787add62e4/walmart/db/950/9988/annual_report/Walmart+2026+Annual+Report.pdf",
+    "as_of": "2026-03-13",
+    "publisher": "Walmart FY2026 Annual Report"
    }
   ]
  },
  "NFLX": {
-  "text": "Films and series at home: over 325 million paid memberships, and 96 billion hours watched in the second half of 2025.",
+  "text": "Films and series at home in more than 190 countries, with non-English shows (Korean, Spanish, Japanese) now over a third of what people watch.",
   "facts": [
    {
     "figure": "325M+ paid memberships",
@@ -37,30 +85,54 @@
     "publisher": "Netflix Q4 2025 shareholder letter"
    },
    {
-    "figure": "96B hours (H2 2025)",
+    "figure": "96B hours watched (H2 2025)",
     "source_type": "Company-reported",
     "quote": "in the second half of 2025, our members watched 96 billion hours on Netflix",
     "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
     "as_of": "2026-01-20",
     "publisher": "Netflix Q4 2025 shareholder letter"
+   },
+   {
+    "figure": "Non-English titles: over 1/3 of viewing",
+    "source_type": "Company-reported",
+    "quote": "Non-English language titles accounted for over a third of all viewing, with Korean, Spanish and Japanese shows and films among the most-watched.",
+    "url": "https://about.netflix.com/en/news/what-we-watched-the-second-half-of-2025",
+    "as_of": "2026-01-20",
+    "publisher": "Netflix, What We Watched H2 2025"
    }
   ]
  },
  "SPOT": {
-  "text": "Music and podcasts on the phone, free or paid: 751 million monthly users at the end of 2025, 290 million of them paying.",
+  "text": "Music, podcasts and audiobooks on the phone, free or paid, and a paycheque for musicians: Spotify paid the music industry more than $11 billion in 2025.",
   "facts": [
    {
-    "figure": "751M monthly users; 290M paying",
+    "figure": "788M users, 306M paying, 184 markets",
     "source_type": "Company-reported",
-    "quote": "Premium Subscribers grew 10% Y/Y to 290 million Monthly Active Users (MAUs) climbed 11% Y/Y to 751 million",
-    "url": "https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/",
-    "as_of": "2026-02-10",
-    "publisher": "Spotify Q4 2025 earnings"
+    "quote": "We are the world's most popular audio streaming subscription service with 788 million users, including 306 million subscribers, in 184 markets.",
+    "url": "https://newsroom.spotify.com/company-info/",
+    "as_of": "2026-11-26",
+    "publisher": "Spotify company info (undated page; retrieved 26 Nov 2026)"
+   },
+   {
+    "figure": "$11B+ paid to music industry (2025)",
+    "source_type": "Company-reported",
+    "quote": "more than $11 billion in 2025 and bringing our all-time total to nearly $70 billion.",
+    "url": "https://newsroom.spotify.com/2026-03-11/loud-and-clear-music-economics-highlights/",
+    "as_of": "2026-03-11",
+    "publisher": "Spotify Loud & Clear 2026"
+   },
+   {
+    "figure": "13,800+ artists earned $100k+ (2025)",
+    "source_type": "Company-reported",
+    "quote": "In 2025, more than 13,800 artists generated at least $100,000 from Spotify alone",
+    "url": "https://newsroom.spotify.com/2026-03-11/loud-and-clear-music-economics-highlights/",
+    "as_of": "2026-03-11",
+    "publisher": "Spotify Loud & Clear 2026"
    }
   ]
  },
  "ABNB": {
-  "text": "Places to stay in other people's homes: 533 million nights and experience seats booked in 2025, hosted by 5 million+ people.",
+  "text": "Places to stay in other people's homes in more than 220 countries and regions, and side income for the hosts: the typical US host earned about $15,600 in 2025.",
   "facts": [
    {
     "figure": "533.0M nights & seats (2025)",
@@ -71,43 +143,83 @@
     "publisher": "Airbnb Q4 2025 shareholder letter"
    },
    {
-    "figure": "5M+ hosts",
+    "figure": "9M+ active listings",
     "source_type": "Company-reported",
-    "quote": "has since grown to over 5 million hosts who have welcomed over 2.5 billion guest arrivals",
+    "quote": "We ended 2025 with over 9 million active listings around the world.",
     "url": "https://s26.q4cdn.com/656283129/files/doc_financials/2025/q4/Airbnb_Q4-2025-Shareholder-Letter.pdf",
     "as_of": "2026-02-12",
     "publisher": "Airbnb Q4 2025 shareholder letter"
+   },
+   {
+    "figure": "~$15,600 typical US host income (2025)",
+    "source_type": "Company-reported",
+    "quote": "The typical host in the US earned approximately $15,600 in supplemental income in 2025.",
+    "url": "https://news.airbnb.com/hosts-and-guests-boost-us-economy-by-a-record-93b-in-2025/",
+    "as_of": "2026-04-15",
+    "publisher": "Airbnb US economic impact report (Airbnb's own estimate)"
    }
   ]
  },
  "ITX": {
-  "text": "Affordable fashion on the high street (Zara, Pull&Bear, Bershka and others): 5,460 stores at the end of FY2025, plus online.",
+  "text": "Affordable high-street fashion (Zara, Pull&Bear, Bershka and others) in stores and online across 214 markets.",
   "facts": [
    {
     "figure": "5,460 stores",
     "source_type": "Company-reported",
     "quote": "At the end of FY2025 Inditex operated 5,460 stores.",
-    "url": "https://www.inditex.com/itxcomweb/gp/en/press/news-detail/b870d5ec-6b7e-491d-b38e-340cd69036df/fy2025-results",
+    "url": "https://www.inditex.com/itxcomweb/en/press/news-detail/b870d5ec-6b7e-491d-b38e-340cd69036df/fy2025-results",
+    "as_of": "2026-03-11",
+    "publisher": "Inditex FY2025 results"
+   },
+   {
+    "figure": "EUR 10.7B online sales",
+    "source_type": "Company-reported",
+    "quote": "Online sales grew at 4.8% to reach €10.7 billion.",
+    "url": "https://www.inditex.com/itxcomweb/en/press/news-detail/b870d5ec-6b7e-491d-b38e-340cd69036df/fy2025-results",
+    "as_of": "2026-03-11",
+    "publisher": "Inditex FY2025 results"
+   },
+   {
+    "figure": "214 markets",
+    "source_type": "Company-reported",
+    "quote": "Inditex operates in 214 markets.",
+    "url": "https://www.inditex.com/itxcomweb/en/press/news-detail/b870d5ec-6b7e-491d-b38e-340cd69036df/fy2025-results",
     "as_of": "2026-03-11",
     "publisher": "Inditex FY2025 results"
    }
   ]
  },
  "OR": {
-  "text": "Shampoo, skincare and make-up on the bathroom shelf: L'Oréal says it distributed over 7 billion products in a year.",
+  "text": "Shampoo, skincare and make-up on the bathroom shelf across 40 brands, backed by 22 research centres.",
   "facts": [
    {
-    "figure": "7B+ products distributed",
+    "figure": "7B+ products sold",
     "source_type": "Company-reported",
-    "quote": "Over 7 billion products distributed globally",
-    "url": "https://loreal-finance.com/eng/loreal-glance",
-    "as_of": "2026-02-12",
-    "publisher": "L'Oréal, Group at a glance (page undated; date is the 2025 results release)"
+    "quote": "More than 7 billion products sold worldwide",
+    "url": "https://www.loreal-finance.com/en/annual-report-2025/",
+    "as_of": "2026-11-26",
+    "publisher": "L'Oréal 2025 Annual Report (undated page; retrieved 26 Nov 2026)"
+   },
+   {
+    "figure": "1.3B consumers, 150+ countries",
+    "source_type": "Company-reported",
+    "quote": "1.3 billion consumers across 150+ countries",
+    "url": "https://www.loreal-finance.com/en/annual-report-2025/strategy/",
+    "as_of": "2026-11-26",
+    "publisher": "L'Oréal 2025 Annual Report (undated page; retrieved 26 Nov 2026)"
+   },
+   {
+    "figure": "22 research centres",
+    "source_type": "Company-reported",
+    "quote": "L'Oréal draws on 22 research centres and 13 evaluation centres worldwide which augment its innovation capabilities.",
+    "url": "https://www.loreal-finance.com/en/annual-report-2025/strategy/",
+    "as_of": "2026-11-26",
+    "publisher": "L'Oréal 2025 Annual Report (undated page; retrieved 26 Nov 2026)"
    }
   ]
  },
  "GOOGL": {
-  "text": "Search, Maps, YouTube and Android are free to use; on top of those, over 325 million paid subscriptions and 750 million monthly users of the Gemini app.",
+  "text": "Search, Maps and Gmail for free, YouTube (the #1 US streamer by Nielsen's count), Android phones, the Gemini assistant, and Waymo driverless taxis.",
   "facts": [
    {
     "figure": "325M+ paid subscriptions",
@@ -124,24 +236,56 @@
     "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q4-2025/",
     "as_of": "2026-02-04",
     "publisher": "Alphabet Q4 2025 CEO remarks"
+   },
+   {
+    "figure": "Waymo: 400k+ driverless rides a week",
+    "source_type": "Company-reported",
+    "quote": "In December, we surpassed 20 million fully autonomous trips and are now providing more than 400 thousand rides every week.",
+    "url": "https://blog.google/inside-google/message-ceo/alphabet-earnings-q4-2025/",
+    "as_of": "2026-02-04",
+    "publisher": "Alphabet Q4 2025 CEO remarks"
+   },
+   {
+    "figure": "YouTube: #1 US streamer (Nielsen)",
+    "source_type": "Company-reported",
+    "quote": "YouTube continues to be the number one streamer in the US for nearly three years, according to Nielsen.",
+    "url": "https://blog.google/inside-google/message-ceo/alphabet-earnings-q4-2025/",
+    "as_of": "2026-02-04",
+    "publisher": "Alphabet Q4 2025 CEO remarks, citing Nielsen"
    }
   ]
  },
  "META": {
-  "text": "Free messaging and social apps: 3.58 billion people a day used Facebook, Instagram, WhatsApp or Messenger in December 2025.",
+  "text": "Free messaging and social apps (WhatsApp, Instagram, Facebook, Messenger) used daily by 3.64 billion people, and Llama AI models anyone can download for free.",
   "facts": [
    {
-    "figure": "3.58B daily people",
+    "figure": "3.64B people a day (Sep 2026)",
     "source_type": "Company-reported",
-    "quote": "Family daily active people (DAP) – DAP was 3.58 billion on average for December 2025, an increase of 7% year-over-year.",
-    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
-    "as_of": "2026-01-28",
-    "publisher": "Meta Q4 2025 results"
+    "quote": "Worldwide DAP increased 3% to 3.64 billion on average during September 2026 from 3.54 billion during September 2025.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "as_of": "2026-10-22",
+    "publisher": "Meta Q3 2026 Form 10-Q"
+   },
+   {
+    "figure": "WhatsApp: 3B+ people, 180+ countries",
+    "source_type": "Company-reported",
+    "quote": "More than 3 billion people in over 180 countries use WhatsApp",
+    "url": "https://www.whatsapp.com/about",
+    "as_of": "2026-11-26",
+    "publisher": "WhatsApp About page (undated; retrieved 26 Nov 2026)"
+   },
+   {
+    "figure": "1B+ Llama model downloads (Apr 2025)",
+    "source_type": "Company-reported",
+    "quote": "we've surpassed one billion downloads",
+    "url": "https://ai.meta.com/blog/llamacon-llama-news/",
+    "as_of": "2025-04-29",
+    "publisher": "Meta AI blog"
    }
   ]
  },
  "TSLA": {
-  "text": "Electric cars: 1,636,129 delivered in 2025.",
+  "text": "Electric cars, a fast-charging network, and big batteries that store power for the electricity grid.",
   "facts": [
    {
     "figure": "1,636,129 vehicles (2025)",
@@ -150,6 +294,22 @@
     "url": "https://www.teslarati.com/tesla-q4-fy-2025-vehicle-delivery-production-results/",
     "as_of": "2026-01-02",
     "publisher": "Tesla's own post, as embedded by Teslarati (ir.tesla.com blocked automated reads)"
+   },
+   {
+    "figure": "8,904 Supercharger stations (Q3 2026)",
+    "source_type": "Company-reported",
+    "quote": "Supercharger stations 7,753 8,182 8,463 8,704 8,904 (Q3 2025 to Q3 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+    "as_of": "2026-10-21",
+    "publisher": "Tesla Q3 2026 Update"
+   },
+   {
+    "figure": "46.7 GWh grid storage deployed (2025)",
+    "source_type": "Company-reported",
+    "quote": "In 2025, we deployed 46.7 GWh of energy storage products.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+    "as_of": "2026-01-29",
+    "publisher": "Tesla FY2025 Form 10-K"
    }
   ]
  },
@@ -191,7 +351,7 @@
   ]
  },
  "DELL": {
-  "text": "Laptops, desktops and servers: about one in seven PCs shipped in 2025, and the top server vendor by revenue.",
+  "text": "Laptops and desktops for offices and homes, and the servers and storage that business systems and AI services run on: #1 by revenue in both.",
   "facts": [
    {
     "figure": "14.4% of PCs shipped (2025, #3)",
@@ -208,11 +368,19 @@
     "url": "https://www.idc.com/resource-center/press-releases/2q2026-wwserver-tracker/",
     "as_of": "2026-09-10",
     "publisher": "IDC Worldwide Quarterly Server Tracker"
+   },
+   {
+    "figure": "#1 in enterprise storage, 23.8% (Q2 2026)",
+    "source_type": "Third-party estimate",
+    "quote": "Dell Technologies retained the top position in 2Q26, with a 23.8% revenue share and 42.5% YoY growth",
+    "url": "https://www.idc.com/resource-center/press-releases/2q2026-ess-tracker/",
+    "as_of": "2026-09-10",
+    "publisher": "IDC Enterprise Storage Systems Tracker"
    }
   ]
  },
  "ORCL": {
-  "text": "Business databases and cloud, and, through Oracle Health (formerly Cerner), the electronic patient records at about one in five US acute-care hospitals.",
+  "text": "Business databases and cloud, the patient records at about one in five US acute-care hospitals (Oracle Health, formerly Cerner), accounting software for 44,000+ businesses (NetSuite), and the US cloud that holds American TikTok users' data.",
   "facts": [
    {
     "figure": "20.1% of US acute-care hospitals' EHRs (2024)",
@@ -221,11 +389,27 @@
     "url": "https://healthit.gov/data/data-briefs/non-federal-acute-care-hospital-electronic-health-record-adoption-2008-2024/",
     "as_of": "2026-06-01",
     "publisher": "ASTP/ONC Data Brief 83, Appendix Table 1"
+   },
+   {
+    "figure": "NetSuite: 44,000+ business customers",
+    "source_type": "Company-reported",
+    "quote": "Relied on by more than 44,000 customers in 220 countries and dependent territories, NetSuite is the #1 AI cloud enterprise resource planning (ERP) solution.",
+    "url": "https://www.oracle.com/europe/news/announcement/co-op-live-sets-the-stage-for-connected-operations-with-oracle-cloud-applications-2026-09-23/",
+    "as_of": "2026-09-23",
+    "publisher": "Oracle press release boilerplate"
+   },
+   {
+    "figure": "US TikTok data hosted by Oracle",
+    "source_type": "Company-reported",
+    "quote": "Data Protection: U.S. user data will be protected by USDS Joint Venture in Oracle's secure U.S. cloud environment.",
+    "url": "https://newsroom.tiktok.com/announcement-from-the-new-tiktok-usds-joint-venture-llc?lang=en",
+    "as_of": "2026-01-23",
+    "publisher": "TikTok newsroom"
    }
   ]
  },
  "BRK": {
-  "text": "Car insurance (GEICO), freight trains (BNSF) and the electricity bill for millions of homes, all owned by one holding company.",
+  "text": "Car insurance (GEICO), freight trains (BNSF), electricity for millions of homes, factory-built houses (Clayton), Duracell batteries and Dairy Queen, all owned by one holding company.",
   "facts": [
    {
     "figure": "5.4M utility customers",
@@ -242,11 +426,27 @@
     "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
     "as_of": "2026-03-02",
     "publisher": "Berkshire Hathaway 2025 Form 10-K"
+   },
+   {
+    "figure": "BNSF: 32,500+ route miles in 28 states",
+    "source_type": "Company-reported",
+    "quote": "Through BNSF Railway, BNSF operates over 32,500 route miles of track (excluding multiple main tracks, yard tracks and sidings) in 28 states.",
+    "url": "https://www.berkshirehathaway.com/2025ar/2025ar.pdf",
+    "as_of": "2026-02-28",
+    "publisher": "Berkshire Hathaway 2025 Annual Report"
+   },
+   {
+    "figure": "Clayton: ~49,400 factory-built homes (2025)",
+    "source_type": "Company-reported",
+    "quote": "In 2025, Clayton shipped approximately 49,400 off-site built homes ... as well as approximately 10,000 site-built homes.",
+    "url": "https://www.berkshirehathaway.com/2025ar/2025ar.pdf",
+    "as_of": "2026-02-28",
+    "publisher": "Berkshire Hathaway 2025 Annual Report"
    }
   ]
  },
  "MSFT": {
-  "text": "Office software, Windows and the Azure cloud; its AI assistant inside Office passed 30 million paid seats.",
+  "text": "Windows, Office and Teams at work and school, the Azure cloud, LinkedIn for job hunting, and GitHub, where software developers keep their code.",
   "facts": [
    {
     "figure": "30M+ Microsoft 365 Copilot seats",
@@ -255,11 +455,27 @@
     "url": "https://news.microsoft.com/source/2026/07/29/microsoft-cloud-and-ai-strength-fuels-fourth-quarter-results-4",
     "as_of": "2026-07-29",
     "publisher": "Microsoft Q4 FY26 results"
+   },
+   {
+    "figure": "GitHub: 180M+ developers",
+    "source_type": "Company-reported",
+    "quote": "180 million-plus developers now work and build on GitHub",
+    "url": "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/",
+    "as_of": "2025-10-28",
+    "publisher": "GitHub Octoverse 2025"
+   },
+   {
+    "figure": "LinkedIn: 1.4B+ members",
+    "source_type": "Company-reported",
+    "quote": "A community of +1.4B Members",
+    "url": "https://news.linkedin.com/about-us",
+    "as_of": "2026-11-26",
+    "publisher": "LinkedIn About (undated; retrieved 26 Nov 2026)"
    }
   ]
  },
  "CRM": {
-  "text": "Customer-records software used by sales and support teams; the largest CRM vendor by revenue share.",
+  "text": "Customer-records software used by sales and support teams, the largest CRM vendor by revenue share; its AI agents now answer routine questions for bodies like the US TSA.",
   "facts": [
    {
     "figure": "20.0% of CRM software (2025, #1)",
@@ -268,11 +484,19 @@
     "url": "https://www.salesforce.com/news/stories/idc-crm-market-share-ranking-2026/",
     "as_of": "2026-06-04",
     "publisher": "IDC Software Tracker, as published by Salesforce"
+   },
+   {
+    "figure": "TSA: 100,000 traveller questions a month",
+    "source_type": "Company-reported",
+    "quote": "The TSA has already automated 100,000 routine conversations per month with Ace.",
+    "url": "https://www.salesforce.com/news/press-releases/2026/09/14/tsa-improves-travel-experience-agentforce/",
+    "as_of": "2026-09-14",
+    "publisher": "Salesforce press release"
    }
   ]
  },
  "SHOP": {
-  "text": "The checkout behind millions of independent online shops: $378.4 billion of goods sold through it in 2025.",
+  "text": "The checkout behind millions of independent online shops in 175+ countries: $378.4 billion of goods sold through it in 2025, and by its own count about one in seven US online sales.",
   "facts": [
    {
     "figure": "$378.4B of goods sold (2025)",
@@ -281,11 +505,27 @@
     "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
     "as_of": "2025-12-31",
     "publisher": "Shopify FY2025 Form 10-K"
+   },
+   {
+    "figure": "Millions of businesses, 175+ countries",
+    "source_type": "Company-reported",
+    "quote": "Millions of businesses in 175+ countries use Shopify",
+    "url": "https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow",
+    "as_of": "2026-11-03",
+    "publisher": "Shopify Q3 2026 release"
+   },
+   {
+    "figure": "~14% of US e-commerce (Shopify's claim)",
+    "source_type": "Third-party estimate",
+    "quote": "Shopify, reporting a U.S. market share figure for just the second time in its Q4 2025 earnings call, claimed a 14% share, up from 12% a year prior.",
+    "url": "https://www.marketplacepulse.com/articles/amazon-and-shopify-are-now-half-of-us-e-commerce",
+    "as_of": "2026-02-19",
+    "publisher": "Marketplace Pulse, relaying Shopify's Q4 2025 call"
    }
   ]
  },
  "COIN": {
-  "text": "A regulated place to buy, hold and sell crypto: more than 12% of all crypto in the world sat on Coinbase in 2025.",
+  "text": "A regulated place to buy, hold and sell crypto and dollar stablecoins: more than 12% of all crypto in the world sat on Coinbase in 2025.",
   "facts": [
    {
     "figure": "12%+ of all crypto held",
@@ -294,32 +534,80 @@
     "url": "https://s27.q4cdn.com/397450999/files/doc_financials/2025/q4/coin-20260212.pdf",
     "as_of": "2026-02-12",
     "publisher": "Coinbase Q4 2025 shareholder letter"
+   },
+   {
+    "figure": "$5.2T traded (2025)",
+    "source_type": "Company-reported",
+    "quote": "Coinbase Total Trading Volume grew 156% to $5.2 trillion in 2025",
+    "url": "https://s27.q4cdn.com/397450999/files/doc_financials/2025/q4/coin-20260212.pdf",
+    "as_of": "2026-02-12",
+    "publisher": "Coinbase Q4 2025 shareholder letter"
+   },
+   {
+    "figure": "~30% of all USDC held on Coinbase",
+    "source_type": "Company-reported",
+    "quote": "We hold about 30% of total USDC in circulation as assets on our platform.",
+    "url": "https://s27.q4cdn.com/397450999/files/content_files/Q3_26-Earnings-AMA-Call-Transcript.pdf",
+    "as_of": "2026-10-29",
+    "publisher": "Coinbase Q3 2026 earnings AMA (CFO)"
    }
   ]
  },
  "AMX": {
-  "text": "Mobile phone and internet service across Latin America (Telcel, Claro): 332 million wireless subscribers.",
+  "text": "Mobile phone, home broadband and TV across Latin America (Telcel in Mexico, Claro elsewhere): 413 million lines in all.",
   "facts": [
    {
-    "figure": "332M wireless subscribers (Sep 2026)",
+    "figure": "332M mobile subscribers (Sep 2026)",
     "source_type": "Company-reported",
     "quote": "At the end of September we had 413 million access lines, of which 332 million were wireless subscribers",
-    "url": "https://www.sec.gov/Archives/edgar/data/0001129137/000114036126040507/ef20084200_6k.htm",
-    "as_of": "2026-09-30",
-    "publisher": "América Móvil 3Q26 results (Form 6-K)"
+    "url": "https://s22.q4cdn.com/604986553/files/content_files/3Q26.pdf",
+    "as_of": "2026-10-20",
+    "publisher": "América Móvil 3Q26 report"
+   },
+   {
+    "figure": "38M home broadband, 14M pay-TV",
+    "source_type": "Company-reported",
+    "quote": "80 million were fixed-line RGUs: 38 million broadband accesses, 14 million PayTV units and 28 million landlines.",
+    "url": "https://s22.q4cdn.com/604986553/files/content_files/3Q26.pdf",
+    "as_of": "2026-10-20",
+    "publisher": "América Móvil 3Q26 report"
+   },
+   {
+    "figure": "Telcel (Mexico): 81.8M subscribers",
+    "source_type": "Company-reported",
+    "quote": "Telcel ... closing September with 81.8 million subscribers.",
+    "url": "https://s22.q4cdn.com/604986553/files/content_files/3Q26.pdf",
+    "as_of": "2026-10-20",
+    "publisher": "América Móvil 3Q26 report"
    }
   ]
  },
  "MC": {
-  "text": "Luxury goods, wine and spirits (Louis Vuitton, Dior, Sephora, Moët and others) sold through 6,283 stores.",
+  "text": "Luxury fashion, perfume, champagne and Sephora beauty stores (Louis Vuitton, Dior, Moët and others), made and sold by more than 211,000 employees.",
   "facts": [
    {
-    "figure": "6,283 stores, 75 Maisons (2025)",
+    "figure": "6,280+ stores, 75+ brands",
     "source_type": "Company-reported",
-    "quote": "75 Maisons; 81 countries; 6,283 stores",
-    "url": "https://www.lvmh.com/static/letter-to-shareholders-january-2026/",
-    "as_of": "2025-12-31",
-    "publisher": "LVMH letter to shareholders, January 2026"
+    "quote": "LVMH, the world's leading luxury products group, gathers more than 75 prestigious brands, with 80.8 billion euros revenue in 2025 and a retail network of over 6,280 stores worldwide.",
+    "url": "https://www.lvmh.com/en",
+    "as_of": "2026-11-26",
+    "publisher": "LVMH corporate site (undated page; retrieved 26 Nov 2026)"
+   },
+   {
+    "figure": "211,000+ employees",
+    "source_type": "Company-reported",
+    "quote": "More than 211,000 employees worldwide as of year-end 2025",
+    "url": "https://www.nasdaq.com/press-release/lvmh-solid-performance-disrupted-global-economic-and-geopolitical-environment-2026-01",
+    "as_of": "2026-01-27",
+    "publisher": "LVMH 2025 annual results"
+   },
+   {
+    "figure": "22% of Champagne shipments",
+    "source_type": "Company-reported",
+    "quote": "LVMH's champagne houses maintained their market share of 22% of all Champagne-appellation shipments",
+    "url": "https://www.nasdaq.com/press-release/lvmh-solid-performance-disrupted-global-economic-and-geopolitical-environment-2026-01",
+    "as_of": "2026-01-27",
+    "publisher": "LVMH 2025 annual results"
    }
   ]
  }
